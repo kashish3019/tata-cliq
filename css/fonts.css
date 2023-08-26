@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Qwitcher Grypen';
+    src: url('../fonts/QwitcherGrypen-Regular.woff2') format('woff2'),
+        url('../fonts/QwitcherGrypen-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Qwitcher Grypen';
+    src: url('../fonts/QwitcherGrypen-Bold.woff2') format('woff2'),
+        url('../fonts/QwitcherGrypen-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prata';
+    src: url('../fonts/Prata-Regular.woff2') format('woff2'),
+        url('../fonts/Prata-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
