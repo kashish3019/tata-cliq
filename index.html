@@ -33,29 +33,49 @@
                         <a href="#"
                             class="text-white relative text-lg font-semibold z-10 transition-all px-4">Categories <i
                                 class="fa-solid fa-angle-down"></i>
-                            <div class="text-white bg-black absolute top-[30px] hidden group-focus:block">
-                                <ul class="text-left">
-                                    <li class="px-4 py-1">
-                                        <a href="#">Man</a>
-                                    </li>
-                                    <li class="px-4 py-1">
-                                        <a href="#">Women</a>
-                                    </li>
-                                    <li class="px-4 py-1">
-                                        <a href="#">Kids</a>
-                                    </li>
-                                    <li class="px-4 py-1">
-                                        <a href="#">Beauty</a>
-                                    </li>
-                                    <li class="px-4 py-1">
-                                        <a href="#">Jewellery</a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul
+                                class="text-left text-black bg-white absolute top-[30px] invisible group-hover:visible z-10 p-5">
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Man's Fashion <i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Women's Fashion <i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Kids's Fashion <i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Beauty <i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Jewellery <i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                            </ul>
                         </a>
                     </div>
-                    <a href="#" class="text-white text-lg font-semibold px-4">Brands <i
-                            class="fa-solid fa-angle-down"></i></a>
+                    <div class="relative group">
+                        <a href="#" class="text-white text-lg font-semibold px-4">Brands <i
+                                class="fa-solid fa-angle-down"></i>
+                                <ul
+                                class="text-left text-black bg-white absolute top-[30px] invisible group-hover:visible z-10 p-5">
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Man's Wear</a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Women's Wear</a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Kids's Wear</a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Beauty</a>
+                                </li>
+                                <li class="px-4 py-2 w-[200px] border-b-2">
+                                    <a href="#" class="text-lg">Jewellery</a>
+                                </li>
+                            </ul>    
+                        </a>
+                    </div>
                     <input type="search" name="" id="" class="py-2 px-4 text-current rounded-sm w-[500px] bg-zinc-700"
                         placeholder="Search for Products">
                     <i class="fa-regular fa-heart px-4 text-white text-2xl"></i>
@@ -72,25 +92,25 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="image/48249620889630.jpg" alt="">
+                        <img src="image/48249620889630.jpg" alt="" class="h-[600px]">
                     </div>
                     <div class="swiper-slide">
-                        <img src="image/48289388363806.jpg" alt="">
+                        <img src="image/48289388363806.jpg" alt="" class="h-[600px]">
                     </div>
                     <div class="swiper-slide">
-                        <img src="image/48330194714654.jpg" alt="">
+                        <img src="image/48330194714654.jpg" alt="" class="h-[600px]">
                     </div>
                     <div class="swiper-slide">
-                        <img src="image/48330194780190.jpg" alt="">
+                        <img src="image/48330194780190.jpg" alt="" class="h-[600px]">
                     </div>
                     <div class="swiper-slide">
-                        <img src="image/48330197106718.jpg" alt="">
+                        <img src="image/48330197106718.jpg" alt="" class="h-[600px]">
                     </div>
                     <div class="swiper-slide">
-                        <img src="image/48330197434398.jpg" alt="">
+                        <img src="image/48330197434398.jpg" alt="" class="h-[600px]">
                     </div>
                     <div class="swiper-slide">
-                        <img src="image/48289488961566.jpg" alt="">
+                        <img src="image/48289488961566.jpg" alt="" class="h-[600px]">
                     </div>
                 </div>
             </div>
@@ -103,10 +123,11 @@
 <script type="module" src="/javascripts/index.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
     });
-  </script>
+</script>
+
 </html>
