@@ -4,7 +4,7 @@ const nav = () =>{
         <div class="container">
             <div class="justify-between flex items-center">
                 <div class="logo">
-                    <a href="#" class="p-2">
+                    <a href="/index.html" class="p-2">
                         <img src="/image/logo.png" alt="" class="w-[100px]">
                     </a>
                 </div>
