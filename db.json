@@ -1,0 +1,605 @@
+{
+  "user":[],
+  "products":[
+    {
+      "id":1,
+      "image":"database 1.jpeg",
+      "title":"men",
+      "description":"Differance of Opinion Green Cotton Loose Fit Striped T-Shirt",
+      "catagory":"T-shirt",
+      "price":467,
+      "rating":{
+        "rate":3.9,
+        "count":136
+      }
+    },
+    {
+      "id":2,
+      "image":"database 2.jpeg",
+      "title":"men",
+      "description":"ETA by Westside Navy Self-patterned Slim-fit T-Shirt",
+      "catagory":"T-shirt",
+      "price":1299,
+      "rating":{
+        "rate":3.9,
+        "count":140
+      }
+    },
+    {
+      "id":3,
+      "image":"database 3.jpeg",
+      "title":"men",
+      "description":"Nuon - Mens by Westside Solid Dark Grey Rodeo Slim Fit Jeans",
+      "catagory":"Jeans",
+      "price":2134,
+      "rating":{
+        "rate":4.0,
+        "count":200
+      }
+    },
+    {
+      "id":4,
+      "image":"database 4.jpeg",
+      "title":"men",
+      "description":"Nuon - Mens by Westside Solid Dark Grey Rodeo Slim Fit Jeans",
+      "catagory":"Jeans",
+      "price":1399,
+      "rating":{
+        "rate":4.8,
+        "count":4
+      }
+    },
+    {
+      "id":5,
+      "image":"database 5.jpeg",
+      "title":"men",
+      "description":"Ascot by Westside Beige Relaxed-Fit Jacket",
+      "catagory":"Jacket",
+      "price":2699,
+      "rating":{
+        "rate":4.0,
+        "count":130
+      }
+    },
+    {
+      "id":6,
+      "image":"database 6.jpeg",
+      "title":"men",
+      "description":"Ascot by Westside Beige Relaxed-Fit Jacket",
+      "catagory":"Jacket",
+      "price":1899,
+      "rating":{
+        "rate":4.0,
+        "count":130
+      }
+    },
+    {
+      "id":7,
+      "image":"database 7.jpeg",
+      "title":"men",
+      "description":"Ascot by Westside Beige Relaxed-Fit Shirt",
+      "catagory":"Shirt",
+      "price":1299,
+      "rating":{
+        "rate":4.2,
+        "count":138
+      }
+    },
+    {
+      "id":8,
+      "image":"database 8.jpeg",
+      "title":"men",
+      "description":"Ascot by Westside Beige Relaxed-Fit Shirt",
+      "catagory":"Shirt",
+      "price":999,
+      "rating":{
+        "rate":4.2,
+        "count":120
+      }
+    },
+    {
+      "id":9,
+      "image":"database 9.jpeg",
+      "title":"men",
+      "description":"Blackberrys Blue Cotton Slim Fit Checks Jogger Pants",
+      "catagory":"Jogger Pants",
+      "price":464,
+      "rating":{
+        "rate":5,
+        "count":250
+      }
+    },
+    {
+      "id":10,
+      "image":"database 10.jpeg",
+      "title":"men",
+      "description":"Blackberrys Blue Cotton Slim Fit Jogger Pants",
+      "catagory":"Jogger Pants",
+      "price":2250,
+      "rating":{
+        "rate":4.5,
+        "count":210
+      }
+    },
+    {
+      "id":11,
+      "image":"database 11.jpeg",
+      "title":"women",
+      "description":"Indi Inside Blue Printed Kurta Pant Set With Dupatta",
+      "catagory":"Suits",
+      "price":1829,
+      "rating":{
+        "rate":4.0,
+        "count":210
+      }
+    },
+    {
+      "id":12,
+      "image":"database 12.jpeg",
+      "title":"women",
+      "description":"Indi Inside Blue Printed Kurta Pant Set With Dupatta",
+      "catagory":"Suits",
+      "price":2499,
+      "rating":{
+        "rate":4.2,
+        "count":210
+      }
+    },
+    {
+      "id":13,
+      "image":"database 13.jpeg",
+      "title":"women",
+      "description":"Saree Mall Off-White & Red Woven Saree With Unstitched Blouse",
+      "catagory":"Saree",
+      "price":1449,
+      "rating":{
+        "rate":4.0,
+        "count":210
+      }
+    },
+    {
+      "id":14,
+      "image":"database 14.jpeg",
+      "title":"women",
+      "description":"Saree Mall Off-White & Red Woven Saree With Unstitched Blouse",
+      "catagory":"Saree",
+      "price":15999,
+      "rating":{
+        "rate":4.9,
+        "count":210
+      }
+    },
+    {
+      "id":15,
+      "image":"database 15.jpeg",
+      "title":"women",
+      "description":"Soch Yellow & Pink Printed Unstitched Lehenga Choli Set With Dupatta",
+      "catagory":"Lehenga",
+      "price":3998,
+      "rating":{
+        "rate":4.5,
+        "count":210
+      }
+    },
+    {
+      "id":16,
+      "image":"database 16.jpeg",
+      "title":"women",
+      "description":"Soch Yellow & Pink Printed Unstitched Lehenga Choli Set With Dupatta",
+      "catagory":"Lehenga",
+      "price":8400,
+      "rating":{
+        "rate":4.5,
+        "count":210
+      }
+    },
+    {
+      "id":17,
+      "image":"database 17.jpeg",
+      "title":"women",
+      "description":"Vero Moda White & Red Printed Peplum Top",
+      "catagory":"Top",
+      "price":1039,
+      "rating":{
+        "rate":3.5,
+        "count":110
+      }
+    },
+    {
+      "id":18,
+      "image":"database 18.jpeg",
+      "title":"women",
+      "description":"Vero Moda White & Red Printed Peplum Top",
+      "catagory":"Top",
+      "price":719,
+      "rating":{
+        "rate":3.0,
+        "count":110
+      }
+    },
+    {
+      "id":19,
+      "image":"database 19.jpeg",
+      "title":"women",
+      "description":"Fablestreet Black Regular Fit Jacket",
+      "catagory":"Jacket",
+      "price":3116,
+      "rating":{
+        "rate":4.5,
+        "count":130
+      }
+    },
+    {
+      "id":20,
+      "image":"database 20.jpeg",
+      "title":"women",
+      "description":"Fablestreet Black Regular Fit Jacket",
+      "catagory":"Jacket",
+      "price":3676,
+      "rating":{
+        "rate":3.9,
+        "count":130
+      }
+    },
+    {
+      "id":21,
+      "image":"database 21.jpeg",
+      "title":"kids",
+      "description":"Ed-a-Mamma Kids Light Green Floral Print Top",
+      "catagory":"Top",
+      "price":999,
+      "rating":{
+        "rate":3.9,
+        "count":50
+      }
+    },
+    {
+      "id":22,
+      "image":"database 22.jpeg",
+      "title":"kids",
+      "description":"Ed-a-Mamma Kids Light Green Floral Print Top",
+      "catagory":"Top",
+      "price":1199,
+      "rating":{
+        "rate":3.5,
+        "count":50
+      }
+    },
+    {
+      "id":23,
+      "image":"database 23.jpeg",
+      "title":"kids",
+      "description":"LilPicks Kids Cream Printed Dress",
+      "catagory":"Dress",
+      "price":799,
+      "rating":{
+        "rate":3.5,
+        "count":80
+      }
+    },
+    {
+      "id":24,
+      "image":"database 24.jpeg",
+      "title":"kids",
+      "description":"LilPicks Kids Cream Printed Dress",
+      "catagory":"Dress",
+      "price":999,
+      "rating":{
+        "rate":3.5,
+        "count":80
+      }
+    },
+    {
+      "id":25,
+      "image":"database 25.jpeg",
+      "title":"kids",
+      "description":"AND girl Kids Lilac Floral Print Jumpsuit",
+      "catagory":"Jumpsuit",
+      "price":994,
+      "rating":{
+        "rate":3.0,
+        "count":30
+      }
+    },
+    {
+      "id":26,
+      "image":"database 26.jpeg",
+      "title":"kids",
+      "description":"AND girl Kids Lilac Floral Print Jumpsuit",
+      "catagory":"Jumpsuit",
+      "price":1099,
+      "rating":{
+        "rate":3.0,
+        "count":60
+      }
+    },
+    {
+      "id":27,
+      "image":"database 27.jpeg",
+      "title":"kids",
+      "description":"Fame Forever by Lifestyle Kids White Embroidered Full Sleeves Sweater",
+      "catagory":"Sweater",
+      "price":899,
+      "rating":{
+        "rate":3.5,
+        "count":40
+      }
+    },
+    {
+      "id":28,
+      "image":"database 28.jpeg",
+      "title":"kids",
+      "description":"Fame Forever by Lifestyle Kids White Embroidered Full Sleeves Sweater",
+      "catagory":"Sweater",
+      "price":1299,
+      "rating":{
+        "rate":3.8,
+        "count":50
+      }
+    },
+    {
+      "id":29,
+      "image":"database 29.jpeg",
+      "title":"kids",
+      "description":"Cherry Crumble by Nitt Hyman Kids Peach Applique Winter Nightsuit",
+      "catagory":"Nightsuit",
+      "price":1149,
+      "rating":{
+        "rate":3.8,
+        "count":120
+      }
+    },
+    {
+      "id":30,
+      "image":"database 30.jpeg",
+      "title":"kids",
+      "description":"Cherry Crumble by Nitt Hyman Kids Peach Applique Winter Nightsuit",
+      "catagory":"Nightsuit",
+      "price":1299,
+      "rating":{
+        "rate":4.5,
+        "count":100
+      }
+    },
+    {
+      "id":31,
+      "image":"database 31.jpeg",
+      "title":"beauty",
+      "description":"Jaguar Pace Eau de Toilette for Men - 60 ml",
+      "catagory":"fragrances",
+      "price":2850,
+      "rating":{
+        "rate":4.2,
+        "count":166
+      }
+    },
+    {
+      "id":32,
+      "image":"database 32.jpeg",
+      "title":"beauty",
+      "description":"Dorall Collection Islanders Eau de Toilette For Men - 100 ml",
+      "catagory":"fragrances",
+      "price":359,
+      "rating":{
+        "rate":4.0,
+        "count":56
+      }
+    },
+    {
+      "id":33,
+      "image":"database 33.jpeg",
+      "title":"beauty",
+      "description":"Wet n Wild Photo Focus Foundation Golden Beige - 30 ml",
+      "catagory":"makeup",
+      "price":594,
+      "rating":{
+        "rate":3.5,
+        "count":125
+      }
+    },
+    {
+      "id":34,
+      "image":"database 34.jpeg",
+      "title":"beauty",
+      "description":"Wet n Wild Photo Focus Foundation Golden Beige - 30 ml",
+      "catagory":"makeup",
+      "price":976,
+      "rating":{
+        "rate":3.8,
+        "count":120
+      }
+    },
+    {
+      "id":35,
+      "image":"database 35.jpeg",
+      "title":"beauty",
+      "description":"Lotus Herbals Safe Sun UV Screen Matte Gel SPF 50 - 50 gm",
+      "catagory":"skin care",
+      "price":318,
+      "rating":{
+        "rate":4.4,
+        "count":30
+      }
+    },
+    {
+      "id":36,
+      "image":"database 36.jpeg",
+      "title":"beauty",
+      "description":"Olay Total Effects 7 in 1 Anti-Ageing Skin Cream - 50 gm",
+      "catagory":"skin care",
+      "price":899,
+      "rating":{
+        "rate":4.1,
+        "count":56
+      }
+    },
+    {
+      "id":37,
+      "image":"database 37.jpeg",
+      "title":"beauty",
+      "description":"L'Oreal Paris Total Repair 5 Repairing Shampoo with Keratin XS - 1000 ml",
+      "catagory":"hair care",
+      "price":789,
+      "rating":{
+        "rate":4.1,
+        "count":58
+      }
+    },
+    {
+      "id":38,
+      "image":"database 38.jpeg",
+      "title":"beauty",
+      "description":"Tibolli Hydration Conditioner - 300 ml",
+      "catagory":"hair care",
+      "price":1250,
+      "rating":{
+        "rate":4.5,
+        "count":26
+      }
+    },
+    {
+      "id":39,
+      "image":"database 39.jpeg",
+      "title":"beauty",
+      "description":"St. Ives Pink Lemon & Mandarin Orange Exfoliating Body Wash - 650 ml",
+      "catagory":"hair care",
+      "price":551,
+      "rating":{
+        "rate":4.9,
+        "count":46
+      }
+    },
+    {
+      "id":40,
+      "image":"database 40.jpeg",
+      "title":"beauty",
+      "description":"St.Ives Soothing Oatmeal & Shea Butter Body Lotion - 621 ml",
+      "catagory":"hair care",
+      "price":486,
+      "rating":{
+        "rate":3.2,
+        "count":15
+      }
+    },
+    {
+      "id":41,
+      "image":"database 41.jpeg",
+      "title":"jewellery",
+      "description":"Joyalukkas 22k Gold Earrings for Women",
+      "catagory":"earrings",
+      "price":45121,
+      "rating":{
+        "rate":4.5,
+        "count":10
+      }
+    },
+    {
+      "id":42,
+      "image":"database 42.jpeg",
+      "title":"jewellery",
+      "description":"Joyalukkas 22k Gold Earrings for Women",
+      "catagory":"earrings",
+      "price":18921,
+      "rating":{
+        "rate":4.7,
+        "count":13
+      }
+    },
+    {
+      "id":43,
+      "image":"database 43.jpeg",
+      "title":"jewellery",
+      "description":"Malabar Gold and Diamonds 22k Gold Pendant without Chain for Women",
+      "catagory":"pendants",
+      "price":12967,
+      "rating":{
+        "rate":4.7,
+        "count":13
+      }
+    },
+    {
+      "id":44,
+      "image":"database 44.jpeg",
+      "title":"jewellery",
+      "description":"Candere By Kalyan Jewellers 18K Yellow Gold and Cubic Zirconia Pendant",
+      "catagory":"pendants",
+      "price":6452,
+      "rating":{
+        "rate":4.8,
+        "count":18
+      }
+    },
+    {
+      "id":45,
+      "image":"database 45.jpeg",
+      "title":"jewellery",
+      "description":"Joyalukkas 22k Yellow Gold Bangle for Women",
+      "catagory":"bracelet",
+      "price":99334,
+      "rating":{
+        "rate":4.0,
+        "count":18
+      }
+    },
+    {
+      "id":46,
+      "image":"database 46.jpeg",
+      "title":"jewellery",
+      "description":"Melorra 18k Gold Sangria Spark Bangle for Women",
+      "catagory":"bracelet",
+      "price":146297,
+      "rating":{
+        "rate":4.5,
+        "count":25
+      }
+    },
+    {
+      "id":47,
+      "image":"database 47.jpeg",
+      "title":"jewellery",
+      "description":"PC Jeweller 18k Gold & Diamond The Jahnavi Ring for Women",
+      "catagory":"ring",
+      "price":29441,
+      "rating":{
+        "rate":4.5,
+        "count":50
+      }
+    },
+    {
+      "id":48,
+      "image":"database 48.jpeg",
+      "title":"jewellery",
+      "description":"Joyalukkas 18k Gold & Diamond Ring for Women",
+      "catagory":"ring",
+      "price":18294,
+      "rating":{
+        "rate":4.2,
+        "count":45
+      }
+    },
+    {
+      "id":49,
+      "image":"database 49.jpeg",
+      "title":"jewellery",
+      "description":"Priyaasi Golde-Plated Nose Ring",
+      "catagory":"Nosering",
+      "price":399,
+      "rating":{
+        "rate":4.0,
+        "count":39
+      }
+    },
+    {
+      "id":50,
+      "image":"database 50.jpeg",
+      "title":"jewellery",
+      "description":"Priyaasi Golden Nose Ring",
+      "catagory":"Nosering",
+      "price":409,
+      "rating":{
+        "rate":4.5,
+        "count":58
+      }
+    }
+  ]
+}
