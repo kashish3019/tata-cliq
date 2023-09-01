@@ -19,15 +19,20 @@ const display = (data) => {
 
     const title = document.createElement("h3");
     title.textContent = item.title;
+    title.style.fontSize="30px"
+    title.style.fontWeight="semibold"
 
     const description = document.createElement("h3");
     description.textContent = item.description;
+    description.style.fontSize="20px"
 
     const catagory = document.createElement("h3");
     catagory.textContent = item.catagory;
+    catagory.style.fontSize="30px"
 
     const price = document.createElement("h3");
     price.textContent = `${item.price}$`;
+    price.style.fontSize="25px"
 
     const rating = document.createElement("h4");
     rating.textContent = "* ".repeat(item.rating.rate);
@@ -35,14 +40,19 @@ const display = (data) => {
     if (item.rating.rate > 4) {
       rating.innerHTML = "* * * * *"
       rating.style.color = "green"
+      rating.style.fontSize="30px"
+
     }
     else if (item.rating.rate <= 4 && item.rating.rate >= 3) {
       rating.innerHTML = "* * * *"
       rating.style.color = "chocolate"
+      rating.style.fontSize="30px"
     }
     else {
       rating.innerHTML = "* *"
       rating.style.color = "red"
+      rating.style.fontSize="30px"
+
     }
 
     const btn1 = document.createElement("button");
@@ -73,7 +83,6 @@ const display = (data) => {
 };
 
 let products = [];
-
 document.getElementById("lth").addEventListener("click", () => {
   products.sort((a, b) => a.price - b.price);
   display(products);
@@ -83,6 +92,7 @@ document.getElementById("htl").addEventListener("click", () => {
   products.sort((a, b) => b.price - a.price);
   display(products);
 });
+
 
 document.getElementById("man").addEventListener("click", () => {
   const temp = products.filter((val) => val.title === "men");
@@ -107,6 +117,14 @@ document.getElementById("beauty").addEventListener("click", () => {
 document.getElementById("jewellery").addEventListener("click", () => {
   const temp = products.filter((val) => val.title === "jewellery");
   display(temp);
+});
+
+
+document.getElementById("searchButton").addEventListener("click", () => {
+  let searchTerm = document.getElementById("searchInput").value.toLowerCase();
+
+  let filteredData = products.filter((val) => val.category.toLowerCase().includes(searchTerm));
+  display(filteredData);
 });
 
 fetch("http://localhost:3000/products")
