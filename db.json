@@ -3,7 +3,7 @@
   "products":[
     {
       "id":1,
-      "image":"database 1.jpeg",
+      "image":"/image/database 1.jpeg",
       "title":"men",
       "description":"Differance of Opinion Green Cotton Loose Fit Striped T-Shirt",
       "catagory":"T-shirt",
@@ -15,7 +15,7 @@
     },
     {
       "id":2,
-      "image":"database 2.jpeg",
+      "image":"/image/database 2.jpeg",
       "title":"men",
       "description":"ETA by Westside Navy Self-patterned Slim-fit T-Shirt",
       "catagory":"T-shirt",
@@ -27,7 +27,7 @@
     },
     {
       "id":3,
-      "image":"database 3.jpeg",
+      "image":"/image/database 3.jpeg",
       "title":"men",
       "description":"Nuon - Mens by Westside Solid Dark Grey Rodeo Slim Fit Jeans",
       "catagory":"Jeans",
@@ -39,7 +39,7 @@
     },
     {
       "id":4,
-      "image":"database 4.jpeg",
+      "image":"/image/database 4.jpeg",
       "title":"men",
       "description":"Nuon - Mens by Westside Solid Dark Grey Rodeo Slim Fit Jeans",
       "catagory":"Jeans",
@@ -51,7 +51,7 @@
     },
     {
       "id":5,
-      "image":"database 5.jpeg",
+      "image":"/image/database 5.jpeg",
       "title":"men",
       "description":"Ascot by Westside Beige Relaxed-Fit Jacket",
       "catagory":"Jacket",
@@ -63,7 +63,7 @@
     },
     {
       "id":6,
-      "image":"database 6.jpeg",
+      "image":"/image/database 6.jpeg",
       "title":"men",
       "description":"Ascot by Westside Beige Relaxed-Fit Jacket",
       "catagory":"Jacket",
@@ -75,7 +75,7 @@
     },
     {
       "id":7,
-      "image":"database 7.jpeg",
+      "image":"/image/database 7.jpeg",
       "title":"men",
       "description":"Ascot by Westside Beige Relaxed-Fit Shirt",
       "catagory":"Shirt",
@@ -87,7 +87,7 @@
     },
     {
       "id":8,
-      "image":"database 8.jpeg",
+      "image":"/image/database 8.jpeg",
       "title":"men",
       "description":"Ascot by Westside Beige Relaxed-Fit Shirt",
       "catagory":"Shirt",
@@ -99,7 +99,7 @@
     },
     {
       "id":9,
-      "image":"database 9.jpeg",
+      "image":"/image/database 9.jpeg",
       "title":"men",
       "description":"Blackberrys Blue Cotton Slim Fit Checks Jogger Pants",
       "catagory":"Jogger Pants",
@@ -111,7 +111,7 @@
     },
     {
       "id":10,
-      "image":"database 10.jpeg",
+      "image":"/image/database 10.jpeg",
       "title":"men",
       "description":"Blackberrys Blue Cotton Slim Fit Jogger Pants",
       "catagory":"Jogger Pants",
@@ -123,7 +123,7 @@
     },
     {
       "id":11,
-      "image":"database 11.jpeg",
+      "image":"/image/database 11.jpeg",
       "title":"women",
       "description":"Indi Inside Blue Printed Kurta Pant Set With Dupatta",
       "catagory":"Suits",
@@ -135,7 +135,7 @@
     },
     {
       "id":12,
-      "image":"database 12.jpeg",
+      "image":"/image/database 12.jpeg",
       "title":"women",
       "description":"Indi Inside Blue Printed Kurta Pant Set With Dupatta",
       "catagory":"Suits",
@@ -147,7 +147,7 @@
     },
     {
       "id":13,
-      "image":"database 13.jpeg",
+      "image":"/image/database 13.jpeg",
       "title":"women",
       "description":"Saree Mall Off-White & Red Woven Saree With Unstitched Blouse",
       "catagory":"Saree",
@@ -159,7 +159,7 @@
     },
     {
       "id":14,
-      "image":"database 14.jpeg",
+      "image":"/image/database 14.jpeg",
       "title":"women",
       "description":"Saree Mall Off-White & Red Woven Saree With Unstitched Blouse",
       "catagory":"Saree",
@@ -171,7 +171,7 @@
     },
     {
       "id":15,
-      "image":"database 15.jpeg",
+      "image":"/image/database 15.jpeg",
       "title":"women",
       "description":"Soch Yellow & Pink Printed Unstitched Lehenga Choli Set With Dupatta",
       "catagory":"Lehenga",
@@ -183,7 +183,7 @@
     },
     {
       "id":16,
-      "image":"database 16.jpeg",
+      "image":"/image/database 16.jpeg",
       "title":"women",
       "description":"Soch Yellow & Pink Printed Unstitched Lehenga Choli Set With Dupatta",
       "catagory":"Lehenga",
@@ -195,7 +195,7 @@
     },
     {
       "id":17,
-      "image":"database 17.jpeg",
+      "image":"/image/database 17.jpeg",
       "title":"women",
       "description":"Vero Moda White & Red Printed Peplum Top",
       "catagory":"Top",
@@ -207,7 +207,7 @@
     },
     {
       "id":18,
-      "image":"database 18.jpeg",
+      "image":"/image/database 18.jpeg",
       "title":"women",
       "description":"Vero Moda White & Red Printed Peplum Top",
       "catagory":"Top",
@@ -219,7 +219,7 @@
     },
     {
       "id":19,
-      "image":"database 19.jpeg",
+      "image":"/image/database 19.jpeg",
       "title":"women",
       "description":"Fablestreet Black Regular Fit Jacket",
       "catagory":"Jacket",
@@ -231,7 +231,7 @@
     },
     {
       "id":20,
-      "image":"database 20.jpeg",
+      "image":"/image/database 20.jpeg",
       "title":"women",
       "description":"Fablestreet Black Regular Fit Jacket",
       "catagory":"Jacket",
@@ -243,7 +243,7 @@
     },
     {
       "id":21,
-      "image":"database 21.jpeg",
+      "image":"/image/database 21.jpeg",
       "title":"kids",
       "description":"Ed-a-Mamma Kids Light Green Floral Print Top",
       "catagory":"Top",
@@ -255,7 +255,7 @@
     },
     {
       "id":22,
-      "image":"database 22.jpeg",
+      "image":"/image/database 22.jpeg",
       "title":"kids",
       "description":"Ed-a-Mamma Kids Light Green Floral Print Top",
       "catagory":"Top",
@@ -267,7 +267,7 @@
     },
     {
       "id":23,
-      "image":"database 23.jpeg",
+      "image":"/image/database 23.jpeg",
       "title":"kids",
       "description":"LilPicks Kids Cream Printed Dress",
       "catagory":"Dress",
@@ -279,7 +279,7 @@
     },
     {
       "id":24,
-      "image":"database 24.jpeg",
+      "image":"/image/database 24.jpeg",
       "title":"kids",
       "description":"LilPicks Kids Cream Printed Dress",
       "catagory":"Dress",
@@ -291,7 +291,7 @@
     },
     {
       "id":25,
-      "image":"database 25.jpeg",
+      "image":"/image/database 25.jpeg",
       "title":"kids",
       "description":"AND girl Kids Lilac Floral Print Jumpsuit",
       "catagory":"Jumpsuit",
@@ -303,7 +303,7 @@
     },
     {
       "id":26,
-      "image":"database 26.jpeg",
+      "image":"/image/database 26.jpeg",
       "title":"kids",
       "description":"AND girl Kids Lilac Floral Print Jumpsuit",
       "catagory":"Jumpsuit",
@@ -315,7 +315,7 @@
     },
     {
       "id":27,
-      "image":"database 27.jpeg",
+      "image":"/image/database 27.jpeg",
       "title":"kids",
       "description":"Fame Forever by Lifestyle Kids White Embroidered Full Sleeves Sweater",
       "catagory":"Sweater",
@@ -327,7 +327,7 @@
     },
     {
       "id":28,
-      "image":"database 28.jpeg",
+      "image":"/image/database 28.jpeg",
       "title":"kids",
       "description":"Fame Forever by Lifestyle Kids White Embroidered Full Sleeves Sweater",
       "catagory":"Sweater",
@@ -339,7 +339,7 @@
     },
     {
       "id":29,
-      "image":"database 29.jpeg",
+      "image":"/image/database 29.jpeg",
       "title":"kids",
       "description":"Cherry Crumble by Nitt Hyman Kids Peach Applique Winter Nightsuit",
       "catagory":"Nightsuit",
@@ -351,7 +351,7 @@
     },
     {
       "id":30,
-      "image":"database 30.jpeg",
+      "image":"/image/database 30.jpeg",
       "title":"kids",
       "description":"Cherry Crumble by Nitt Hyman Kids Peach Applique Winter Nightsuit",
       "catagory":"Nightsuit",
@@ -363,7 +363,7 @@
     },
     {
       "id":31,
-      "image":"database 31.jpeg",
+      "image":"/image/database 31.jpeg",
       "title":"beauty",
       "description":"Jaguar Pace Eau de Toilette for Men - 60 ml",
       "catagory":"fragrances",
@@ -375,7 +375,7 @@
     },
     {
       "id":32,
-      "image":"database 32.jpeg",
+      "image":"/image/database 32.jpeg",
       "title":"beauty",
       "description":"Dorall Collection Islanders Eau de Toilette For Men - 100 ml",
       "catagory":"fragrances",
@@ -387,7 +387,7 @@
     },
     {
       "id":33,
-      "image":"database 33.jpeg",
+      "image":"/image/database 33.jpeg",
       "title":"beauty",
       "description":"Wet n Wild Photo Focus Foundation Golden Beige - 30 ml",
       "catagory":"makeup",
@@ -399,7 +399,7 @@
     },
     {
       "id":34,
-      "image":"database 34.jpeg",
+      "image":"/image/database 34.jpeg",
       "title":"beauty",
       "description":"Wet n Wild Photo Focus Foundation Golden Beige - 30 ml",
       "catagory":"makeup",
@@ -411,7 +411,7 @@
     },
     {
       "id":35,
-      "image":"database 35.jpeg",
+      "image":"/image/database 35.jpeg",
       "title":"beauty",
       "description":"Lotus Herbals Safe Sun UV Screen Matte Gel SPF 50 - 50 gm",
       "catagory":"skin care",
@@ -423,7 +423,7 @@
     },
     {
       "id":36,
-      "image":"database 36.jpeg",
+      "image":"/image/database 36.jpeg",
       "title":"beauty",
       "description":"Olay Total Effects 7 in 1 Anti-Ageing Skin Cream - 50 gm",
       "catagory":"skin care",
@@ -435,7 +435,7 @@
     },
     {
       "id":37,
-      "image":"database 37.jpeg",
+      "image":"/image/database 37.jpeg",
       "title":"beauty",
       "description":"L'Oreal Paris Total Repair 5 Repairing Shampoo with Keratin XS - 1000 ml",
       "catagory":"hair care",
@@ -447,7 +447,7 @@
     },
     {
       "id":38,
-      "image":"database 38.jpeg",
+      "image":"/image/database 38.jpeg",
       "title":"beauty",
       "description":"Tibolli Hydration Conditioner - 300 ml",
       "catagory":"hair care",
@@ -459,7 +459,7 @@
     },
     {
       "id":39,
-      "image":"database 39.jpeg",
+      "image":"/image/database 39.jpeg",
       "title":"beauty",
       "description":"St. Ives Pink Lemon & Mandarin Orange Exfoliating Body Wash - 650 ml",
       "catagory":"hair care",
@@ -471,7 +471,7 @@
     },
     {
       "id":40,
-      "image":"database 40.jpeg",
+      "image":"/image/database 40.jpeg",
       "title":"beauty",
       "description":"St.Ives Soothing Oatmeal & Shea Butter Body Lotion - 621 ml",
       "catagory":"hair care",
@@ -483,7 +483,7 @@
     },
     {
       "id":41,
-      "image":"database 41.jpeg",
+      "image":"/image/database 41.jpeg",
       "title":"jewellery",
       "description":"Joyalukkas 22k Gold Earrings for Women",
       "catagory":"earrings",
@@ -495,7 +495,7 @@
     },
     {
       "id":42,
-      "image":"database 42.jpeg",
+      "image":"/image/database 42.jpeg",
       "title":"jewellery",
       "description":"Joyalukkas 22k Gold Earrings for Women",
       "catagory":"earrings",
@@ -507,7 +507,7 @@
     },
     {
       "id":43,
-      "image":"database 43.jpeg",
+      "image":"/image/database 43.jpeg",
       "title":"jewellery",
       "description":"Malabar Gold and Diamonds 22k Gold Pendant without Chain for Women",
       "catagory":"pendants",
@@ -519,7 +519,7 @@
     },
     {
       "id":44,
-      "image":"database 44.jpeg",
+      "image":"/image/database 44.jpeg",
       "title":"jewellery",
       "description":"Candere By Kalyan Jewellers 18K Yellow Gold and Cubic Zirconia Pendant",
       "catagory":"pendants",
@@ -531,7 +531,7 @@
     },
     {
       "id":45,
-      "image":"database 45.jpeg",
+      "image":"/image/database 45.jpeg",
       "title":"jewellery",
       "description":"Joyalukkas 22k Yellow Gold Bangle for Women",
       "catagory":"bracelet",
@@ -543,7 +543,7 @@
     },
     {
       "id":46,
-      "image":"database 46.jpeg",
+      "image":"/image/database 46.jpeg",
       "title":"jewellery",
       "description":"Melorra 18k Gold Sangria Spark Bangle for Women",
       "catagory":"bracelet",
@@ -555,7 +555,7 @@
     },
     {
       "id":47,
-      "image":"database 47.jpeg",
+      "image":"/image/database 47.jpeg",
       "title":"jewellery",
       "description":"PC Jeweller 18k Gold & Diamond The Jahnavi Ring for Women",
       "catagory":"ring",
@@ -567,7 +567,7 @@
     },
     {
       "id":48,
-      "image":"database 48.jpeg",
+      "image":"/image/database 48.jpeg",
       "title":"jewellery",
       "description":"Joyalukkas 18k Gold & Diamond Ring for Women",
       "catagory":"ring",
@@ -579,7 +579,7 @@
     },
     {
       "id":49,
-      "image":"database 49.jpeg",
+      "image":"/image/database 49.jpeg",
       "title":"jewellery",
       "description":"Priyaasi Golde-Plated Nose Ring",
       "catagory":"Nosering",
@@ -591,7 +591,7 @@
     },
     {
       "id":50,
-      "image":"database 50.jpeg",
+      "image":"/image/database 50.jpeg",
       "title":"jewellery",
       "description":"Priyaasi Golden Nose Ring",
       "catagory":"Nosering",

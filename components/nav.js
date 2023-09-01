@@ -9,8 +9,8 @@ const nav = () =>{
                     </a>
                 </div>
                 <div class="navbar">
-                    <nav class="bg-black justify-between flex items-center px-10 py-3 rounded-lg nav-menu">
-                        <a href="/index.html" class="text-white text-lg font-semibold px-4 nav-item">Home</a>
+                    <nav class="bg-black justify-between flex items-center px-10 py-3 rounded-lg">
+                        <a href="/index.html" class="text-white text-lg font-semibold px-4">Home</a>
                         <div class="relative group">
                             <a href="/pages/categories.html"
                                 class="text-white relative text-lg font-semibold z-10 px-4">Categories <i
