@@ -2,13 +2,11 @@ import nav from "../components/nav.js";
 document.getElementById("tatacliq").innerHTML = nav()
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Get form element
+
     const form = document.querySelector("#form");
 
-    // Display data on form submission
     form.addEventListener("submit", displaydata);
 
-    // Additional listeners for real-time input validation
     document.getElementById("name").addEventListener("input", validateName);
     document.getElementById("email").addEventListener("input", validateEmail);
     document.getElementById("password").addEventListener("input", validatePassword);

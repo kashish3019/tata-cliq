@@ -16,7 +16,7 @@ const login=(e)=>{
             {
                 alert('login successfully')
                 localStorage.setItem("loggedIn", true);
-                window.location.href = "index.html";
+                window.location.href = "/pages/brands.html";
             }
             else
             {
