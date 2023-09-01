@@ -1,10 +1,10 @@
-const nav = () =>{
-    return`
+const nav = () => {
+    return `
     <header class="bg-neutral-900">
         <div class="container">
             <div class="justify-between flex items-center">
                 <div class="logo">
-                    <a href="#" class="p-2">
+                    <a href="/index.html" class="p-2">
                     <img src="/image/logo.png" alt="" class="w-[100px]">
                     </a>
                 </div>
@@ -12,27 +12,31 @@ const nav = () =>{
                 <a href="/index.html" class="text-white text-lg font-semibold px-4">Home</a>
 
                     <div class="relative group">
-                        <a href="/pages/categories.html" class="text-white relative text-lg font-semibold z-10 px-4">Categories <i
-                            class="fa-solid fa-angle-down"></i></a>
-                        <ul class="text-left text-black bg-white absolute top-[30px] invisible group-hover:visible group-hover:opacity-100 z-10 p-5 rounded shadow-2xl">
-                            <li class="px-4 py-2 w-[200px] border-b-2 relative" >
-                                <a href="#" class="text-lg group relative">Man's Fashion <i class="fa-solid fa-angle-right"></i></a>
-                            </li>
-                            <li class="px-4 py-2 w-[200px] border-b-2">
-                                <a href="#" class="text-lg">Women's Fashion <i class="fa-solid fa-angle-right"></i></a>
-                            </li>
-                            <li class="px-4 py-2 w-[200px] border-b-2">
-                                <a href="#" class="text-lg">Kids's Fashion <i class="fa-solid fa-angle-right"></i></a>
-                            </li>
-                            <li class="px-4 py-2 w-[200px] border-b-2">
-                                <a href="#" class="text-lg">Beauty <i class="fa-solid fa-angle-right"></i></a>
-                            </li>
-                            <li class="px-4 py-2 w-[200px] border-b-2">
-                                <a href="#" class="text-lg">Jewellery <i class="fa-solid fa-angle-right"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="/pages/login.html" class="text-white text-lg font-semibold px-6 py-1">Login/Signup</a>
+                    <a href="/pages/categories.html" class="text-white relative text-lg font-semibold z-10 px-4">Categories <i
+                    class="fa-solid fa-angle-down"></i></a>
+                <ul class="text-left text-black bg-white absolute top-[30px] invisible group-hover:visible group-hover:opacity-100 z-10 p-5 rounded shadow-2xl">
+                    <li class="px-4 py-2 w-[200px] border-b-2 relative">
+                        <button id="man">Man's Fashion</button>
+                    </li>
+                    <li class="px-4 py-2 w-[200px] border-b-2">
+                    <button id="woman">Woman's Fashion</button>
+                        
+                    </li>
+                    <li class="px-4 py-2 w-[200px] border-b-2">
+                    <button id="kids">Kid's Fashion</button>
+                    </li>
+                    <li class="px-4 py-2 w-[200px] border-b-2">
+                    <button id="beauty">Beauty</button>
+                    </li>
+                    <li class="px-4 py-2 w-[200px] border-b-2">
+                    <button id="jewellery">Jewellery</button>
+                    </li>
+                </ul>
+            </div>
+            <input type="search" name="" id="searchButton" class="py-2 px-4 text-current rounded-sm w-[500px] bg-zinc-700"
+                placeholder="Search for Products">
+                <a href="#"><i class="fa-regular fa-heart px-4 text-white text-2xl"></i></a>
+                <a href="/pages/cart.html"><i class="fa-solid fa-bag-shopping px-4 text-white text-2xl"></i></a>
                 </nav>
             </div>
         </div>
@@ -42,11 +46,11 @@ const nav = () =>{
 export default nav
 
 
-const foot = () =>{
-    return`<footer class="bg-white">
+const foot = () => {
+    return `<footer class="bg-white">
     <div class="container">
         <div class="relative">
-            <img src="/ image/trustFrame.png" class="absolute left-[41%] bottom-[-15px]">
+            <img src="/image/trustFrame.png" class="absolute left-[41%] bottom-[-15px]">
         </div>
         <div class="flex justify-center">
             <img src="/image/Frame22222.svg" alt="">
@@ -120,4 +124,4 @@ const foot = () =>{
     </div>
 </footer>`
 }
-export {foot}
+export { foot }
