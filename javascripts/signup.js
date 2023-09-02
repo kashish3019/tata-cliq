@@ -48,7 +48,7 @@ const displaydata = (e) => {
     if (!passwordIsValid) {
         passwordError.textContent = "Password is not strong";
     } else {
-        passwordError.textContent = "Make a strong password";
+        passwordError.textContent = "";
     }
 
     if (nameIsValid && emailIsValid && passwordIsValid) {
@@ -108,6 +108,6 @@ const validatePassword = () => {
     if (!passregex.test(passwordInput.value)) {
         passwordError.textContent = "Password is not strong";
     } else {
-        passwordError.textContent = "Make a strong password";
+        passwordError.textContent = "";
     }
 };
