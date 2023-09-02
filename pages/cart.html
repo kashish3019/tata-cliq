@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/cart.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -32,9 +34,28 @@
         }
     </style>
 </head>
+
 <body>
-   <div id="tatacliq"></div>
-   <div id="footer"></div>
+    <div id="tatacliq"></div>
+    <section class="heading">
+       <div class="container">
+        <h1 class="text-3xl font-bold p-10 w-full">My Bag</h1>
+       </div>
+    </section>
+    <section class="txt p-2 w-full">
+        <p>Apply a relevant coupon code here to avail any additional discount. Applicable cashback if any will be credited to your account as per T&C.</p>
+
+    </section>
+    <section>
+            <div id="cartpage"></div>
+            <div id="other">
+
+                <div id="price"></div>
+
+            </div>
+    </section>
+    <div id="footer"></div>
 </body>
 <script type="module" src="/javascripts/cart.js"></script>
+
 </html>
