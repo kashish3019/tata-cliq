@@ -5,7 +5,7 @@ const nav = () => {
             <div class="justify-between flex items-center">
                 <div class="logo">
                     <a href="/index.html" class="p-2">
-                    <img src="/image/logo.png" alt="" class="w-[100px]">
+                    <img src="/image/logo.png" alt="" class="w-[100px] h-[100]">
                     </a>
                 </div>
                 <nav class="bg-black justify-between flex items-center px-10 py-3 rounded-lg">
@@ -39,6 +39,7 @@ const nav = () => {
 
                 <a href="#"><i class="fa-regular fa-heart px-4 text-white text-2xl"></i></a>
                 <a href="/pages/cart.html"><i class="fa-solid fa-bag-shopping px-4 text-white text-2xl"></i></a>
+                <a href="/pages/signup.html" class="text-white text-lg font-semibold">Login/SignUp</a>
                 </nav>
             </div>
         </div>
@@ -49,13 +50,13 @@ export default nav
 
 
 const foot = () => {
-    return `<footer class="bg-white">
+    return `<footer class="bg-white  mt-10">
     <div class="container">
         <div class="relative">
-            <img src="/image/trustFrame.png" class="absolute left-[41%] bottom-[-15px]">
+            <img src="/image/trustFrame.png" class="absolute left-[41%] bottom-[-15px] w-[100px] h-[100px]">
         </div>
         <div class="flex justify-center">
-            <img src="/image/Frame22222.svg" alt="">
+            <img src="/image/Frame22222.svg" alt="" class="w-[100px] h-[100px]">
         </div>
         <div class="flex p-10">
             <div class="w-1/5 p-5">

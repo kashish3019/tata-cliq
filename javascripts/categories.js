@@ -75,7 +75,7 @@ const display = (data) => {
 
       if (!exists) {
         cart.push({ ...item, qty: 1 });
-        alert("Product was added Successfully");
+        alert("This Item has been added to your bag");
       }
 
       localStorage.setItem("cart", JSON.stringify(cart));
@@ -157,8 +157,7 @@ document.getElementById("jewellery").addEventListener("click", () => {
 
 const filterAndDisplaySearchResults = (searchTerm) => {
   const filteredData = products.filter((product) =>
-    product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    product.category.toLowerCase().includes(searchTerm.toLowerCase()) 
+    product.title.toLowerCase().includes(searchTerm.toLowerCase()) 
   );
   display(filteredData);
 };
