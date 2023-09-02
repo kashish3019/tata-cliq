@@ -83,67 +83,7 @@ const display = (data) => {
   });
 };
 
-// let products = [];
-// document.getElementById("lth").addEventListener("click", () => {
-//   products.sort((a, b) => a.price - b.price);
-//   display(products);
-// });
 
-// document.getElementById("htl").addEventListener("click", () => {
-//   products.sort((a, b) => b.price - a.price);
-//   display(products);
-// });
-
-
-// document.getElementById("man").addEventListener("click", () => {
-//   const temp = products.filter((val) => val.title === "men");
-//   display(temp);
-// });
-
-// document.getElementById("woman").addEventListener("click", () => {
-//   const temp = products.filter((val) => val.title === "women");
-//   display(temp);
-// });
-
-// document.getElementById("kids").addEventListener("click", () => {
-//   const temp = products.filter((val) => val.title === "kids");
-//   display(temp);
-// });
-
-// document.getElementById("beauty").addEventListener("click", () => {
-//   const temp = products.filter((val) => val.title === "beauty");
-//   display(temp);
-// });
-
-// document.getElementById("jewellery").addEventListener("click", () => {
-//   const temp = products.filter((val) => val.title === "jewellery");
-//   display(temp);
-// });
-
-
-// document.getElementById("searchButton").addEventListener("click", () => {
-//   let searchTerm = document.getElementById("searchInput").value.toLowerCase();
-
-//   let filteredData = products.filter((val) => val.category.toLowerCase().includes(searchTerm));
-//   display(filteredData);
-// });
-
-// fetch("http://localhost:3000/products")
-//   .then((response) => response.json())
-//   .then((data) => {
-//     products = data;
-//     display(data);
-//   });
-
-// const get = () => {
-//   fetch("http://localhost:3000/products")
-//     .then((response) => response.json())
-//     .then((data) => {
-//       display(data);
-//     });
-// };
-
-// get();
 
 let products = [];
 let currentCategory = "all";
@@ -184,16 +124,17 @@ document.getElementById("htl").addEventListener("click", () => {
     display(temp);
   }
 });
+
 document.getElementById("man").addEventListener("click", () => {
   currentCategory = "men";
   filterAndDisplayCategory(currentCategory);
-  enableSortingButtons();d
+  enableSortingButtons();
 });
 
 document.getElementById("woman").addEventListener("click", () => {
   currentCategory = "women";
   filterAndDisplayCategory(currentCategory);
-  enableSortingButtons();d
+  enableSortingButtons();
 });
 
 document.getElementById("kids").addEventListener("click", () => {
@@ -214,6 +155,18 @@ document.getElementById("jewellery").addEventListener("click", () => {
   enableSortingButtons(); 
 });
 
+const filterAndDisplaySearchResults = (searchTerm) => {
+  const filteredData = products.filter((product) =>
+    product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    product.category.toLowerCase().includes(searchTerm.toLowerCase()) 
+  );
+  display(filteredData);
+};
+
+document.getElementById("searchButton").addEventListener("click", () => {
+  const searchTerm = document.getElementById("searchInput").value;
+  filterAndDisplaySearchResults(searchTerm);
+});
 
 fetch("http://localhost:3000/products")
   .then((response) => response.json())
