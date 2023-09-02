@@ -83,56 +83,143 @@ const display = (data) => {
   });
 };
 
+// let products = [];
+// document.getElementById("lth").addEventListener("click", () => {
+//   products.sort((a, b) => a.price - b.price);
+//   display(products);
+// });
+
+// document.getElementById("htl").addEventListener("click", () => {
+//   products.sort((a, b) => b.price - a.price);
+//   display(products);
+// });
+
+
+// document.getElementById("man").addEventListener("click", () => {
+//   const temp = products.filter((val) => val.title === "men");
+//   display(temp);
+// });
+
+// document.getElementById("woman").addEventListener("click", () => {
+//   const temp = products.filter((val) => val.title === "women");
+//   display(temp);
+// });
+
+// document.getElementById("kids").addEventListener("click", () => {
+//   const temp = products.filter((val) => val.title === "kids");
+//   display(temp);
+// });
+
+// document.getElementById("beauty").addEventListener("click", () => {
+//   const temp = products.filter((val) => val.title === "beauty");
+//   display(temp);
+// });
+
+// document.getElementById("jewellery").addEventListener("click", () => {
+//   const temp = products.filter((val) => val.title === "jewellery");
+//   display(temp);
+// });
+
+
+// document.getElementById("searchButton").addEventListener("click", () => {
+//   let searchTerm = document.getElementById("searchInput").value.toLowerCase();
+
+//   let filteredData = products.filter((val) => val.category.toLowerCase().includes(searchTerm));
+//   display(filteredData);
+// });
+
+// fetch("http://localhost:3000/products")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     products = data;
+//     display(data);
+//   });
+
+// const get = () => {
+//   fetch("http://localhost:3000/products")
+//     .then((response) => response.json())
+//     .then((data) => {
+//       display(data);
+//     });
+// };
+
+// get();
+
 let products = [];
+let currentCategory = "all";
+
+const enableSortingButtons = () => {
+  document.getElementById("lth").style.display = "block";
+  document.getElementById("htl").style.display = "block";
+};
+
+const disableSortingButtons = () => {
+  document.getElementById("lth").style.display = "none";
+  document.getElementById("htl").style.display = "none";
+};
+
+const filterAndDisplayCategory = (category) => {
+  if (category === "all") {
+    display(products);
+    disableSortingButtons();
+  } else {
+    const temp = products.filter((val) => val.title.toLowerCase() === category);
+    display(temp);
+    enableSortingButtons();
+  }
+};
+
 document.getElementById("lth").addEventListener("click", () => {
-  products.sort((a, b) => a.price - b.price);
-  display(products);
+  if (currentCategory !== "all") {
+    const temp = products.filter((val) => val.title.toLowerCase() === currentCategory);
+    temp.sort((a, b) => a.price - b.price);
+    display(temp);
+  }
 });
 
 document.getElementById("htl").addEventListener("click", () => {
-  products.sort((a, b) => b.price - a.price);
-  display(products);
+  if (currentCategory !== "all") {
+    const temp = products.filter((val) => val.title.toLowerCase() === currentCategory);
+    temp.sort((a, b) => b.price - a.price);
+    display(temp);
+  }
 });
-
-
 document.getElementById("man").addEventListener("click", () => {
-  const temp = products.filter((val) => val.title === "men");
-  display(temp);
+  currentCategory = "men";
+  filterAndDisplayCategory(currentCategory);
+  enableSortingButtons();d
 });
 
 document.getElementById("woman").addEventListener("click", () => {
-  const temp = products.filter((val) => val.title === "women");
-  display(temp);
+  currentCategory = "women";
+  filterAndDisplayCategory(currentCategory);
+  enableSortingButtons();d
 });
 
 document.getElementById("kids").addEventListener("click", () => {
-  const temp = products.filter((val) => val.title === "kids");
-  display(temp);
+  currentCategory = "kids";
+  filterAndDisplayCategory(currentCategory);
+  enableSortingButtons(); 
 });
 
 document.getElementById("beauty").addEventListener("click", () => {
-  const temp = products.filter((val) => val.title === "beauty");
-  display(temp);
+  currentCategory = "beauty";
+  filterAndDisplayCategory(currentCategory);
+  enableSortingButtons(); 
 });
 
 document.getElementById("jewellery").addEventListener("click", () => {
-  const temp = products.filter((val) => val.title === "jewellery");
-  display(temp);
+  currentCategory = "jewellery";
+  filterAndDisplayCategory(currentCategory);
+  enableSortingButtons(); 
 });
 
-
-document.getElementById("searchButton").addEventListener("click", () => {
-  let searchTerm = document.getElementById("searchInput").value.toLowerCase();
-
-  let filteredData = products.filter((val) => val.category.toLowerCase().includes(searchTerm));
-  display(filteredData);
-});
 
 fetch("http://localhost:3000/products")
   .then((response) => response.json())
   .then((data) => {
     products = data;
-    display(data);
+    display(products);
   });
 
 const get = () => {
