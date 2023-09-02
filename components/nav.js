@@ -32,10 +32,6 @@ const nav = () =>{
                             </li>
                         </ul>
                     </div>
-                    <input type="search" name="" id="" class="py-2 px-4 text-current rounded-sm w-[500px] bg-zinc-700"
-                        placeholder="Search for Products">
-                    <i class="fa-regular fa-heart px-4 text-white text-2xl"></i>
-                    <a href="/pages/cart.html"><i class="fa-solid fa-bag-shopping px-4 text-white text-2xl"></i></a>
                     <a href="/pages/login.html" class="text-white text-lg font-semibold px-6 py-1">Login/Signup</a>
                 </nav>
             </div>
