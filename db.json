@@ -37,12 +37,12 @@
         "img2": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012784813_437Wx649H_202204100943122.jpeg",
         "img3": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012784813_437Wx649H_202204100943153.jpeg",
         "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000012784813_437Wx649H_202204100943184.jpeg",
-        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000012784813_437Wx649H_202204100943205.jpeg"
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000012784813_437Wx649H_202204100943091.jpeg"
       }
     },
     {
       "id": 2,
-      "image": "/image/database 2.jpeg",
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013499667_437Wx649H_202206190157201.jpeg",
       "title": "men",
       "description": "ETA by Westside Navy Self-patterned Slim-fit T-Shirt",
       "catagory": "T-shirt",
@@ -50,11 +50,18 @@
       "rating": {
         "rate": 3.9,
         "count": 140
+      },
+      "images":{
+        "img1": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013499667_437Wx649H_202206190157201.jpeg",
+        "img2": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013499667_437Wx649H_202206190157232.jpeg",
+        "img3": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013499667_437Wx649H_202206190157243.jpeg",
+        "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013499667_437Wx649H_202206190157274.jpeg",
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013499667_437Wx649H_202206190157201.jpeg"
       }
     },
     {
       "id": 3,
-      "image": "/image/database 3.jpeg",
+      "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017791227_437Wx649H_202306011544421.jpeg",
       "title": "men",
       "description": "Nuon - Mens by Westside Solid Dark Grey Rodeo Slim Fit Jeans",
       "catagory": "Jeans",
@@ -62,11 +69,18 @@
       "rating": {
         "rate": 4,
         "count": 200
+      },
+      "images":{
+        "img1": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017791227_437Wx649H_202306011544421.jpeg",
+        "img2": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017791227_437Wx649H_202306011544402.jpeg",
+        "img3": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017791227_437Wx649H_202306011544383.jpeg",
+        "img4":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017791227_437Wx649H_202306011544394.jpeg",
+        "img5":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017791227_437Wx649H_202306011544415.jpeg"
       }
     },
     {
       "id": 4,
-      "image": "/image/database 4.jpeg",
+      "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016502441_437Wx649H_202302120945281.jpeg      ",
       "title": "men",
       "description": "Nuon - Mens by Westside Solid Dark Grey Rodeo Slim Fit Jeans",
       "catagory": "Jeans",
@@ -74,11 +88,18 @@
       "rating": {
         "rate": 4.8,
         "count": 4
+      },
+      "images":{
+        "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016502441_437Wx649H_202302120945281.jpeg",
+        "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016502441_437Wx649H_202302120945302.jpeg",
+        "img3": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016502441_437Wx649H_202302120945233.jpeg",
+        "img4":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016502441_437Wx649H_202302120945244.jpeg",
+        "img5":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016502441_437Wx649H_202302120945265.jpeg"
       }
     },
     {
       "id": 5,
-      "image": "/image/database 5.jpeg",
+      "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285015_437Wx649H_202111280546031.jpeg",
       "title": "men",
       "description": "Ascot by Westside Beige Relaxed-Fit Jacket",
       "catagory": "Jacket",
@@ -86,11 +107,18 @@
       "rating": {
         "rate": 4,
         "count": 130
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285015_437Wx649H_202111280546031.jpeg",
+        "img2":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285015_437Wx649H_202111280546042.jpeg",
+        "img3":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285015_437Wx649H_202111280546063.jpeg",
+        "img4":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285015_437Wx649H_202111280546074.jpeg",
+        "img5":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285015_437Wx649H_202111280546085.jpeg"
       }
     },
     {
       "id": 6,
-      "image": "/image/database 6.jpeg",
+      "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285012_437Wx649H_202111280546001.jpeg",
       "title": "men",
       "description": "Ascot by Westside Beige Relaxed-Fit Jacket",
       "catagory": "Jacket",
@@ -98,11 +126,18 @@
       "rating": {
         "rate": 4,
         "count": 130
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285012_437Wx649H_202111280546001.jpeg",
+        "img2":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285012_437Wx649H_202111280546022.jpeg",
+        "img3":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285012_437Wx649H_202111280546043.jpeg",
+        "img4":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285012_437Wx649H_202111280546054.jpeg",
+        "img5":"https://img.tatacliq.com/images/i7/437Wx649H/MP000000011285012_437Wx649H_202111280546065.jpeg"
       }
     },
     {
       "id": 7,
-      "image": "/image/database 7.jpeg",
+      "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016521150_437Wx649H_202302141656571.jpeg",
       "title": "men",
       "description": "Ascot by Westside Beige Relaxed-Fit Shirt",
       "catagory": "Shirt",
@@ -111,10 +146,18 @@
         "rate": 4.2,
         "count": 138
       }
+      ,
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016521150_437Wx649H_202302141656571.jpeg",
+        "img2":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016521150_437Wx649H_202302141656552.jpeg",
+        "img3":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016521150_437Wx649H_202302141656543.jpeg",
+        "img4":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016521150_437Wx649H_202302141656585.jpeg",
+        "img5":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016521150_437Wx649H_202302141656516.jpeg"
+      }
     },
     {
       "id": 8,
-      "image": "/image/database 8.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017054074_437Wx649H_202303311654301.jpeg",
       "title": "men",
       "description": "Ascot by Westside Beige Relaxed-Fit Shirt",
       "catagory": "Shirt",
@@ -123,10 +166,18 @@
         "rate": 4.2,
         "count": 120
       }
+      ,
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017054074_437Wx649H_202303311654301.jpeg",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017054074_437Wx649H_202303311654392.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017054074_437Wx649H_202303311654413.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017054074_437Wx649H_202303311654354.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017054074_437Wx649H_202303311654301.jpeg"
+      }
     },
     {
       "id": 9,
-      "image": "/image/database 9.jpeg",
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013425050_437Wx649H_202206130743561.jpeg",
       "title": "men",
       "description": "Blackberrys Blue Cotton Slim Fit Checks Jogger Pants",
       "catagory": "Jogger Pants",
@@ -135,10 +186,18 @@
         "rate": 5,
         "count": 250
       }
+      ,
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013425050_437Wx649H_202206130743561.jpeg",
+        "img2":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013425050_437Wx649H_202206130743582.jpeg",
+        "img3":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013425050_437Wx649H_202206130744003.jpeg",
+        "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013425050_437Wx649H_202206130744034.jpeg",
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013425050_437Wx649H_202206130743582.jpeg"
+      }
     },
     {
       "id": 10,
-      "image": "/image/database 10.jpeg",
+      "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016427549_437Wx649H_202302072200281.jpeg",
       "title": "men",
       "description": "Blackberrys Blue Cotton Slim Fit Jogger Pants",
       "catagory": "Jogger Pants",
@@ -147,10 +206,18 @@
         "rate": 4.5,
         "count": 210
       }
+      ,
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016427549_437Wx649H_202302072200281.jpeg",
+        "img2":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016427549_437Wx649H_202302072200212.jpeg",
+        "img3":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016427549_437Wx649H_202302072200503.jpeg",
+        "img4":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016427549_437Wx649H_202302072200394.jpeg",
+        "img5":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016427549_437Wx649H_202302072200394.jpeg"
+      }
     },
     {
       "id": 11,
-      "image": "/image/database 11.jpeg",
+      "image": "https://img.tatacliq.com/images/i12/437Wx649H/MP000000018730312_437Wx649H_202308132203081.jpeg",
       "title": "women",
       "description": "Indi Inside Blue Printed Kurta Pant Set With Dupatta",
       "catagory": "Suits",
@@ -159,10 +226,18 @@
         "rate": 4,
         "count": 210
       }
+      ,
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018730312_437Wx649H_202308132203142.jpeg        ",
+        "img2":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018730312_437Wx649H_202308132203173.jpeg",
+        "img3":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018730312_437Wx649H_202308132203185.jpeg",
+        "img4":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018730312_437Wx649H_202308132203096.jpeg",
+        "img5":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018730312_437Wx649H_202308132203064.jpeg"
+      }
     },
     {
       "id": 12,
-      "image": "/image/database 12.jpeg",
+      "image": "https://img.tatacliq.com/images/i12/437Wx649H/MP000000018849630_437Wx649H_202308201926411.jpeg",
       "title": "women",
       "description": "Indi Inside Blue Printed Kurta Pant Set With Dupatta",
       "catagory": "Suits",
@@ -170,11 +245,18 @@
       "rating": {
         "rate": 4.2,
         "count": 210
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018849630_437Wx649H_202308201926411.jpeg",
+        "img2":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018849630_437Wx649H_202308201926452.jpeg",
+        "img3":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018849630_437Wx649H_202308201926423.jpeg",
+        "img4":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018849630_437Wx649H_202308201926444.jpeg",
+        "img5":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018849630_437Wx649H_202308201926452.jpeg"
       }
     },
     {
       "id": 13,
-      "image": "/image/database 13.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000016818815_437Wx649H_202303111945501.jpeg",
       "title": "women",
       "description": "Saree Mall Off-White & Red Woven Saree With Unstitched Blouse",
       "catagory": "Saree",
@@ -182,11 +264,18 @@
       "rating": {
         "rate": 4,
         "count": 210
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016818815_437Wx649H_202303111945501.jpeg",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016818815_437Wx649H_202303111945522.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016818815_437Wx649H_202303111945443.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016818815_437Wx649H_202303111945414.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016818815_437Wx649H_202303111945475.jpeg"
       }
     },
     {
       "id": 14,
-      "image": "/image/database 14.jpeg",
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014221397_437Wx649H_202208250814571.jpeg",
       "title": "women",
       "description": "Saree Mall Off-White & Red Woven Saree With Unstitched Blouse",
       "catagory": "Saree",
@@ -194,11 +283,18 @@
       "rating": {
         "rate": 4.9,
         "count": 210
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014221397_437Wx649H_202208250814571.jpeg",
+        "img2":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014221397_437Wx649H_202208250814592.jpeg",
+        "img3":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014221397_437Wx649H_202208250815014.jpeg",
+        "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014221397_437Wx649H_202208250815003.jpeg",
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014221397_437Wx649H_202208250815065.jpeg"
       }
     },
     {
       "id": 15,
-      "image": "/image/database 15.jpeg",
+      "image": "https://img.tatacliq.com/images/i12/437Wx649H/MP000000018894016_437Wx649H_202308241358001.jpeg",
       "title": "women",
       "description": "Soch Yellow & Pink Printed Unstitched Lehenga Choli Set With Dupatta",
       "catagory": "Lehenga",
@@ -206,11 +302,18 @@
       "rating": {
         "rate": 4.5,
         "count": 210
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018894016_437Wx649H_202308241358001.jpeg",
+        "img2":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018894016_437Wx649H_202308241357342.jpeg",
+        "img3":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018894016_437Wx649H_202308241357473.jpeg",
+        "img4":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018894016_437Wx649H_202308241357514.jpeg",
+        "img5":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018894016_437Wx649H_202308241357565.jpeg"
       }
     },
     {
       "id": 16,
-      "image": "/image/database 16.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000016652995_437Wx649H_202302250432571.jpeg",
       "title": "women",
       "description": "Soch Yellow & Pink Printed Unstitched Lehenga Choli Set With Dupatta",
       "catagory": "Lehenga",
@@ -218,11 +321,18 @@
       "rating": {
         "rate": 4.5,
         "count": 210
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016652995_437Wx649H_202302250432571.jpeg  ",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016652995_437Wx649H_202302250432492.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016652995_437Wx649H_202302250433083.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016652995_437Wx649H_202302250432534.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016652995_437Wx649H_202302250433005.jpeg"
       }
     },
     {
       "id": 17,
-      "image": "/image/database 17.jpeg",
+      "image": "https://img.tatacliq.com/images/i13/437Wx649H/MP000000018495310_437Wx649H_202308252359561.jpeg",
       "title": "women",
       "description": "Vero Moda White & Red Printed Peplum Top",
       "catagory": "Top",
@@ -230,11 +340,18 @@
       "rating": {
         "rate": 3.5,
         "count": 110
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018495310_437Wx649H_202308252359561.jpeg",
+        "img2":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018495310_437Wx649H_202308252359452.jpeg",
+        "img3":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018495310_437Wx649H_202308252359493.jpeg",
+        "img4":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018495310_437Wx649H_202308252359534.jpeg",
+        "img5":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018495310_437Wx649H_202308260000005.jpeg"
       }
     },
     {
       "id": 18,
-      "image": "/image/database 18.jpeg",
+      "image": "https://img.tatacliq.com/images/i13/437Wx649H/MP000000018908423_437Wx649H_202308251701121.jpeg",
       "title": "women",
       "description": "Vero Moda White & Red Printed Peplum Top",
       "catagory": "Top",
@@ -242,11 +359,18 @@
       "rating": {
         "rate": 3,
         "count": 110
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018908423_437Wx649H_202308251701121.jpeg",
+        "img2":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018908423_437Wx649H_202308251701172.jpeg",
+        "img3":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018908423_437Wx649H_202308251701143.jpeg",
+        "img4":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018908423_437Wx649H_202308251701154.jpeg",
+        "img5":"https://img.tatacliq.com/images/i13/437Wx649H/MP000000018908423_437Wx649H_202308251701195.jpeg"
       }
     },
     {
       "id": 19,
-      "image": "/image/database 19.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017276485_437Wx649H_202304200312411.jpeg",
       "title": "women",
       "description": "Fablestreet Black Regular Fit Jacket",
       "catagory": "Jacket",
@@ -254,11 +378,18 @@
       "rating": {
         "rate": 4.5,
         "count": 130
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017276485_437Wx649H_202304200312411.jpeg",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017276485_437Wx649H_202304200312382.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017276485_437Wx649H_202304200312473.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017276485_437Wx649H_202304200312504.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017276485_437Wx649H_202304200312445.jpeg"
       }
     },
     {
       "id": 20,
-      "image": "/image/database 20.jpeg",
+      "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017817439_437Wx649H_202306031528291.jpeg",
       "title": "women",
       "description": "Fablestreet Black Regular Fit Jacket",
       "catagory": "Jacket",
@@ -266,11 +397,18 @@
       "rating": {
         "rate": 3.9,
         "count": 130
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017817439_437Wx649H_202306031528291.jpeg",
+        "img2":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017817439_437Wx649H_202306031528312.jpeg",
+        "img3":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017817439_437Wx649H_202306031528143.jpeg",
+        "img4":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017817439_437Wx649H_202306031528194.jpeg",
+        "img5":""
       }
     },
     {
       "id": 21,
-      "image": "/image/database 21.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380738_437Wx649H_202304280125341.jpeg",
       "title": "kids",
       "description": "Ed-a-Mamma Kids Light Green Floral Print Top",
       "catagory": "Top",
@@ -278,11 +416,18 @@
       "rating": {
         "rate": 3.9,
         "count": 50
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380738_437Wx649H_202304280125341.jpeg",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380738_437Wx649H_202304280125372.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380738_437Wx649H_202304280125353.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380738_437Wx649H_202304280125404.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380738_437Wx649H_202304280125385.jpeg"
       }
     },
     {
       "id": 22,
-      "image": "/image/database 22.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000016870967_437Wx649H_202303160413571.jpeg",
       "title": "kids",
       "description": "Ed-a-Mamma Kids Light Green Floral Print Top",
       "catagory": "Top",
@@ -290,11 +435,18 @@
       "rating": {
         "rate": 3.5,
         "count": 50
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016870967_437Wx649H_202303160413571.jpeg",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016870967_437Wx649H_202303160413592.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016870967_437Wx649H_202303160413523.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016870967_437Wx649H_202303160413545.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000016870967_437Wx649H_202303160413564.jpeg"
       }
     },
     {
       "id": 23,
-      "image": "/image/database 23.jpeg",
+      "image": "https://img.tatacliq.com/images/i12/437Wx649H/MP000000018320153_437Wx649H_202307141232241.jpeg",
       "title": "kids",
       "description": "LilPicks Kids Cream Printed Dress",
       "catagory": "Dress",
@@ -302,11 +454,18 @@
       "rating": {
         "rate": 3.5,
         "count": 80
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018320153_437Wx649H_202307141232241.jpeg",
+        "img2":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018320153_437Wx649H_202307141232202.jpeg",
+        "img3":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018320153_437Wx649H_202307141232263.jpeg",
+        "img4":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018320153_437Wx649H_202307141232304.jpeg",
+        "img5":"https://img.tatacliq.com/images/i12/437Wx649H/MP000000018320153_437Wx649H_202307141232225.jpeg "
       }
     },
     {
       "id": 24,
-      "image": "/image/database 24.jpeg",
+      "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017645326_437Wx649H_202305232044381.jpeg",
       "title": "kids",
       "description": "LilPicks Kids Cream Printed Dress",
       "catagory": "Dress",
@@ -314,11 +473,18 @@
       "rating": {
         "rate": 3.5,
         "count": 80
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017645326_437Wx649H_202305232044381.jpeg",
+        "img2":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017645326_437Wx649H_202305232044412.jpeg",
+        "img3":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017645326_437Wx649H_202305232044403.jpeg",
+        "img4":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017645326_437Wx649H_202305232044444.jpeg",
+        "img5":"https://img.tatacliq.com/images/i11/437Wx649H/MP000000017645326_437Wx649H_202305232044425.jpeg"
       }
     },
     {
       "id": 25,
-      "image": "/image/database 25.jpeg",
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013269015_437Wx649H_202205271644451.jpeg",
       "title": "kids",
       "description": "AND girl Kids Lilac Floral Print Jumpsuit",
       "catagory": "Jumpsuit",
@@ -326,11 +492,18 @@
       "rating": {
         "rate": 3,
         "count": 30
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013269015_437Wx649H_202205271644451.jpeg",
+        "img2":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013269015_437Wx649H_202205271644462.jpeg",
+        "img3":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013269015_437Wx649H_202205271644473.jpeg",
+        "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013269015_437Wx649H_202205271644484.jpeg",
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000013269015_437Wx649H_202205271644495.jpeg"
       }
     },
     {
       "id": 26,
-      "image": "/image/database 26.jpeg",
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014866492_437Wx649H_202210142236211.jpeg",
       "title": "kids",
       "description": "AND girl Kids Lilac Floral Print Jumpsuit",
       "catagory": "Jumpsuit",
@@ -338,11 +511,18 @@
       "rating": {
         "rate": 3,
         "count": 60
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014866492_437Wx649H_202210142236211.jpeg",
+        "img2":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014866492_437Wx649H_202210142236122.jpeg",
+        "img3":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014866492_437Wx649H_202210142236143.jpeg",
+        "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014866492_437Wx649H_202210142236234.jpeg",
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014866492_437Wx649H_202210142236135.jpeg"
       }
     },
     {
       "id": 27,
-      "image": "/image/database 27.jpeg",
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014276949_437Wx649H_202208301928341.jpeg",
       "title": "kids",
       "description": "Fame Forever by Lifestyle Kids White Embroidered Full Sleeves Sweater",
       "catagory": "Sweater",
@@ -350,11 +530,18 @@
       "rating": {
         "rate": 3.5,
         "count": 40
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014276949_437Wx649H_202208301928341.jpeg",
+        "img2":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014276949_437Wx649H_202208301928352.jpeg",
+        "img3":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014276949_437Wx649H_202208301928373.jpeg",
+        "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014276949_437Wx649H_202208301928384.jpeg",
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000014276949_437Wx649H_202208301928373.jpeg"
       }
     },
     {
       "id": 28,
-      "image": "/image/database 28.jpeg",
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015072203_437Wx649H_202210291918001.jpeg",
       "title": "kids",
       "description": "Fame Forever by Lifestyle Kids White Embroidered Full Sleeves Sweater",
       "catagory": "Sweater",
@@ -362,11 +549,18 @@
       "rating": {
         "rate": 3.8,
         "count": 50
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000015072203_437Wx649H_202210291918001.jpeg",
+        "img2":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000015072203_437Wx649H_202210291918022.jpeg",
+        "img3":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000015072203_437Wx649H_202210291917593.jpeg",
+        "img4":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000015072203_437Wx649H_202210291918014.jpeg",
+        "img5":"https://img.tatacliq.com/images/i8/437Wx649H/MP000000015072203_437Wx649H_202210291918035.jpeg"
       }
     },
     {
       "id": 29,
-      "image": "/image/database 29.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295873_437Wx649H_202304201829101.jpeg",
       "title": "kids",
       "description": "Cherry Crumble by Nitt Hyman Kids Peach Applique Winter Nightsuit",
       "catagory": "Nightsuit",
@@ -374,11 +568,18 @@
       "rating": {
         "rate": 3.8,
         "count": 120
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295873_437Wx649H_202304201829101.jpeg",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295873_437Wx649H_202304201829152.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295873_437Wx649H_202304201829123.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295873_437Wx649H_202304201829094.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295873_437Wx649H_202304201829145.jpeg"
       }
     },
     {
       "id": 30,
-      "image": "/image/database 30.jpeg",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017281875_437Wx649H_202304200658521.jpeg",
       "title": "kids",
       "description": "Cherry Crumble by Nitt Hyman Kids Peach Applique Winter Nightsuit",
       "catagory": "Nightsuit",
@@ -386,6 +587,13 @@
       "rating": {
         "rate": 4.5,
         "count": 100
+      },
+      "images":{
+        "img1":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017281875_437Wx649H_202304200658521.jpeg",
+        "img2":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017281875_437Wx649H_202304200658502.jpeg",
+        "img3":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017281875_437Wx649H_202304200658493.jpeg",
+        "img4":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017281875_437Wx649H_202304200658514.jpeg",
+        "img5":"https://img.tatacliq.com/images/i10/437Wx649H/MP000000017281875_437Wx649H_202304200658535.jpeg"
       }
     },
     {
@@ -398,6 +606,13 @@
       "rating": {
         "rate": 4.2,
         "count": 166
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -410,7 +625,14 @@
       "rating": {
         "rate": 4,
         "count": 56
-      }
+      },
+        "images":{
+          "img1":"",
+          "img2":"",
+          "img3":"",
+          "img4":"",
+          "img5":""
+        }
     },
     {
       "id": 33,
@@ -422,6 +644,13 @@
       "rating": {
         "rate": 3.5,
         "count": 125
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -434,6 +663,13 @@
       "rating": {
         "rate": 3.8,
         "count": 120
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -446,6 +682,13 @@
       "rating": {
         "rate": 4.4,
         "count": 30
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -458,6 +701,13 @@
       "rating": {
         "rate": 4.1,
         "count": 56
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -470,6 +720,13 @@
       "rating": {
         "rate": 4.1,
         "count": 58
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -482,6 +739,13 @@
       "rating": {
         "rate": 4.5,
         "count": 26
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -494,6 +758,13 @@
       "rating": {
         "rate": 4.9,
         "count": 46
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -506,6 +777,13 @@
       "rating": {
         "rate": 3.2,
         "count": 15
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -518,6 +796,13 @@
       "rating": {
         "rate": 4.5,
         "count": 10
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -530,6 +815,13 @@
       "rating": {
         "rate": 4.7,
         "count": 13
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -542,6 +834,13 @@
       "rating": {
         "rate": 4.7,
         "count": 13
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -554,6 +853,13 @@
       "rating": {
         "rate": 4.8,
         "count": 18
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -566,6 +872,13 @@
       "rating": {
         "rate": 4,
         "count": 18
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -578,6 +891,13 @@
       "rating": {
         "rate": 4.5,
         "count": 25
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -590,6 +910,13 @@
       "rating": {
         "rate": 4.5,
         "count": 50
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -602,6 +929,13 @@
       "rating": {
         "rate": 4.2,
         "count": 45
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -614,6 +948,13 @@
       "rating": {
         "rate": 4,
         "count": 39
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     },
     {
@@ -626,6 +967,13 @@
       "rating": {
         "rate": 4.5,
         "count": 58
+      },
+      "images":{
+        "img1":"",
+        "img2":"",
+        "img3":"",
+        "img4":"",
+        "img5":""
       }
     }
   ]
