@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product List</title>
+    <title>Product Details</title>
     <link rel="stylesheet" href="/css/media.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="stylesheet" href="/css/show.css">
+    <!-- <link rel="stylesheet" href="/css/show.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -36,8 +36,7 @@
 <body> 
     <div id="tatacliq"></div>
 
-
-  <div class="detais">
+    <div class="detais">
         <div class="container">
             <div class="row">
                 <div class="w-50">
@@ -79,9 +78,7 @@
                         <h1 id="titles"></h1>
                         <div class="row rate">
                             <p id="rate" class="black"></p>
-                            <p class="imageo">
-                                <img src="/image/image 6.jpg" alt="">
-                            </p>
+                            
                             <p id="ver" class="black"></p>
                         </div>
                         <div class="pricesss">
@@ -106,94 +103,16 @@
             </div>
         </div>
     </div>
-    <div>
-    </div>
-
-
 
     <div id="footer"></div>
-  </body>
-  <script src="/javascripts/show.js"></script>
-  </html>
+    <script>
 
-
-
-
-
-
-
-  <!-- <div class="pro-mainbox flex">
-      <div class="box1">
-          <div class="sdetail" id="target">
-              <div class="sub-box1">
-                  <div class="mainimg">
-                      <img src="" alt="" id="pimg">
-                  </div>
-                  <div class="images flex">
-                      <div>
-                          <img src="" alt="" id="image1">
-                      </div>
-                      <div>
-                          <img src="" alt="" id="image2">
-                      </div>
-                      <div>
-                          <img src="" alt="" id="image3">
-                      </div>
-                      <div>
-                          <img src="" alt="" id="image4">
-                      </div>
-                  </div>
-              </div>
-              <div class="w-full">
-                  <h1 id="ptitle"></h1>
-                  <h2 id="punit"></h2>
-                  <h2 id="pcategory"></h2>
-                  <h3><span id="pprice"></span></h3>
-                  <h5>Delivery By : <span id="update"></span>-<span id="toupdate"></span></h5>
-                  <hr>
-                  <div class="cartadd">
-                      <button id="addtocart">Add to cart</button>
-                  </div>
-              </div>
-              <h5 class="more">non returable <a href="#">Read More</a></h5>
-              <hr>
-              <div class="desc">
-                  <ul>
-                      <li>
-                          <h3>Description</h3>
-                          <p id="pdesc"></p>
-                          <ul>
-                              <li class="list-disc">
-                                  <p><span>Recommended by Doctors :</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid!</p>
-                              </li>
-                              <li class="list-disc">
-                                  <p><span>Recommended by Doctors :</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid!</p>
-                              </li>
-                              <li class="list-disc">
-                                  <p><span>Recommended by Doctors :</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid!</p>
-                              </li>
-                          </ul>
-                      </li>
-                  </ul>
-              </div>
-              <hr>
-              <div class="taxt-base">
-                  <h3>Product Details</h3>
-                  <p>Brand : <span>The Sleep Company</span></p>
-                  <p>Brand : <span>The Sleep Company</span></p>
-                  <p>Brand : <span>The Sleep Company</span></p>
-              </div>
-              <hr>
-          </div>
-      </div>
-      <div class="box2">
-          <h4>Please add item</h4>
-          <a href="/pages/cart.html">
-              <button>View Cart</button>
-          </a>
-          <div>
-              <h5>Offers Just for you</h5>
-              <p>Get upto</p>
-          </div>
-      </div>
-  </div> -->
+        function clickimg(smallimg){
+            console.log(smallimg);
+            var fullimg =document.getElementById("imagebox");
+            fullimg.src = smallimg.src
+        }
+    </script>
+    <script type="module" src="/javascripts/show.js"></script>
+</body>
+</html>
