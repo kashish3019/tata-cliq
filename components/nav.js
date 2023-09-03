@@ -35,7 +35,7 @@ const nav = () => {
             </div>
             <!-- Inside your header -->
            <input type="search" id="searchInput" class="py-2 px-4 text-current rounded-sm w-[500px] bg-zinc-700" placeholder="Search for Products">
-            <button id="searchButton" class="px-4 py-2 text-white bg-blue-500 rounded-md ml-4">Search</button>
+            <button id="searchButton" class="px-4 py-2 text-white bg-zinc-700 hover:bg-zinc-600 rounded-md ml-4">Search</button>
 
                 <a href="#"><i class="fa-regular fa-heart px-4 text-white text-2xl"></i></a>
                 <a href="/pages/cart.html"><i class="fa-solid fa-bag-shopping px-4 text-white text-2xl"></i></a>
@@ -53,10 +53,10 @@ const foot = () => {
     return `<footer class="bg-white  mt-10">
     <div class="container">
         <div class="relative">
-            <img src="/image/trustFrame.png" class="absolute left-[41%] bottom-[-15px] w-[100px] h-[100px]">
+            <img src="/image/trustFrame.png" class="absolute left-[41%] bottom-[-15px]">
         </div>
         <div class="flex justify-center">
-            <img src="/image/Frame22222.svg" alt="" class="w-[100px] h-[100px]">
+            <img src="/image/Frame22222.svg" alt="" class="">
         </div>
         <div class="flex p-10">
             <div class="w-1/5 p-5">

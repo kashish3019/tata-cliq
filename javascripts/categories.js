@@ -1,8 +1,8 @@
 import nav, { foot } from "../components/nav.js";
 document.getElementById("tatacliq").innerHTML = nav()
 document.getElementById("footer").innerHTML = foot()
-
-
+let products = [];
+let id = 1;
 const display = (data) => {
   const box = document.getElementById("box");
   box.innerHTML = "";
@@ -23,17 +23,16 @@ const display = (data) => {
     title.style.fontSize="30px"
     title.style.fontWeight="semibold"
 
-    const description = document.createElement("h3");
+    const description = document.createElement("h4");
     description.textContent = item.description;
     description.style.fontSize="20px"
 
-    const catagory = document.createElement("h3");
+    const catagory = document.createElement("h5");
     catagory.textContent = item.catagory;
     catagory.style.fontSize="30px"
 
-    const price = document.createElement("h3");
+    const price = document.createElement("h6");
     price.textContent = `${item.price}$`;
-    price.style.fontSize="25px"
 
     const rating = document.createElement("h4");
     rating.textContent = "* ".repeat(item.rating.rate);
@@ -59,7 +58,23 @@ const display = (data) => {
     const btn1 = document.createElement("button");
     btn1.textContent = "Add to Cart";
     btn1.classList.add("btn1");
-    div.append(image, title, description, catagory, price, rating, btn1);
+    let btn2 = document.createElement('Button');
+    btn2.innerHTML = "VIEW";
+        btn2.setAttribute('class', 'btn');
+
+        btn2.addEventListener("click",()=>{
+            id= products.id;
+            console.log(id);
+             fetch(`http://localhost:3000/detail/${id}`)
+                 .then((res)=>res.json())
+                 .then((data)=>{
+                     console.log(data)
+                     localStorage.setItem("productDetails", JSON.stringify(data));
+                     window.location.href="/pages/show.html";
+                 })
+           
+        })
+    div.append(image, title, description, catagory, price, rating, btn1,btn2);
     box.appendChild(div);
 
     btn1.addEventListener("click", () => {
@@ -85,7 +100,7 @@ const display = (data) => {
 
 
 
-let products = [];
+
 let currentCategory = "all";
 
 const enableSortingButtons = () => {

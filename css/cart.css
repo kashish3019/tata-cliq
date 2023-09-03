@@ -9,8 +9,7 @@
     display: flex;
     width: 100%;
 }
-
-.maindiv img{
+.imgdiv img{
     width: 200px;
     height: 250px;
     text-align: center;

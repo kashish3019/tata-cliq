@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/show.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                }
+            }
+        }
+    </script>
+    <style>
+        .bg {
+            background-color: rgb(236, 236, 236);
+        }
+
+        .fonts {
+            font-family: 'Qwitcher Grypen';
+        }
+
+        .fonts2 {
+            font-family: 'Prata';
+        }
+    </style>
+</head>
+<body> 
+    <div id="tatacliq"></div>
+
+
+  <div class="detais">
+        <div class="container">
+            <div class="row">
+                <div class="w-50">
+                    <div class="image_box">
+                        <img src="" alt=""  id="imagebox">
+                    </div>
+                    <div class="imgsbox">
+                        <div class="row">
+                            <div class="w-10">
+                                <div class="imagesss">
+                                    <img src="" alt="" id="i1" onclick="clickimg(this)">
+                                </div>
+                            </div>
+                            <div class="w-10">
+                                <div class="imagesss">
+                                    <img src="" alt="" id="i2" onclick="clickimg(this)">
+                                </div>
+                            </div>
+                            <div class="w-10">
+                                <div class="imagesss">
+                                    <img src="" alt="" id="i3" onclick="clickimg(this)">
+                                </div>
+                            </div>
+                            <div class="w-10">
+                                <div class="imagesss">
+                                    <img src=""  alt="" id="i4" onclick="clickimg(this)">
+                                </div>
+                            </div>
+                            <div class="w-10">
+                                <div class="imagesss">
+                                    <img src="" alt="" id="i5" onclick="clickimg(this)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-50">
+                    <div class="content">
+                        <h1 id="titles"></h1>
+                        <div class="row rate">
+                            <p id="rate" class="black"></p>
+                            <p class="imageo">
+                                <img src="/image/image 6.jpg" alt="">
+                            </p>
+                            <p id="ver" class="black"></p>
+                        </div>
+                        <div class="pricesss">
+                            <div class="row">
+                                <p id="prices"></p>
+                                <del id="prisess" class="black"></del>
+                                <p id="descri" class="black"></p>
+                            </div>
+                        </div>
+                        <h4 id="cat" class="black"></h4>
+                        <p class="free">Free Shipping On Orders over ₹ 750</p>
+                        <div class="detais ">
+                            <h5 class="black">Product Details</h5>
+                            <p class="black">Country of Origin :India 
+                                <br/>
+                                Manufacturing Details :GLOBAL HYGIENE COMPANY - Near, Plot No. 8,9, Valeshwar Industrial Estate, Pipodara Village, NH, Street Number 8, Surat, Gujarat 394110 India</p>
+
+                        </div>
+                        <button id="add" class="add">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    </div>
+
+
+
+    <div id="footer"></div>
+  </body>
+  <script src="/javascripts/show.js"></script>
+  </html>
+
+
+
+
+
+
+
+  <!-- <div class="pro-mainbox flex">
+      <div class="box1">
+          <div class="sdetail" id="target">
+              <div class="sub-box1">
+                  <div class="mainimg">
+                      <img src="" alt="" id="pimg">
+                  </div>
+                  <div class="images flex">
+                      <div>
+                          <img src="" alt="" id="image1">
+                      </div>
+                      <div>
+                          <img src="" alt="" id="image2">
+                      </div>
+                      <div>
+                          <img src="" alt="" id="image3">
+                      </div>
+                      <div>
+                          <img src="" alt="" id="image4">
+                      </div>
+                  </div>
+              </div>
+              <div class="w-full">
+                  <h1 id="ptitle"></h1>
+                  <h2 id="punit"></h2>
+                  <h2 id="pcategory"></h2>
+                  <h3><span id="pprice"></span></h3>
+                  <h5>Delivery By : <span id="update"></span>-<span id="toupdate"></span></h5>
+                  <hr>
+                  <div class="cartadd">
+                      <button id="addtocart">Add to cart</button>
+                  </div>
+              </div>
+              <h5 class="more">non returable <a href="#">Read More</a></h5>
+              <hr>
+              <div class="desc">
+                  <ul>
+                      <li>
+                          <h3>Description</h3>
+                          <p id="pdesc"></p>
+                          <ul>
+                              <li class="list-disc">
+                                  <p><span>Recommended by Doctors :</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid!</p>
+                              </li>
+                              <li class="list-disc">
+                                  <p><span>Recommended by Doctors :</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid!</p>
+                              </li>
+                              <li class="list-disc">
+                                  <p><span>Recommended by Doctors :</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid!</p>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              <hr>
+              <div class="taxt-base">
+                  <h3>Product Details</h3>
+                  <p>Brand : <span>The Sleep Company</span></p>
+                  <p>Brand : <span>The Sleep Company</span></p>
+                  <p>Brand : <span>The Sleep Company</span></p>
+              </div>
+              <hr>
+          </div>
+      </div>
+      <div class="box2">
+          <h4>Please add item</h4>
+          <a href="/pages/cart.html">
+              <button>View Cart</button>
+          </a>
+          <div>
+              <h5>Offers Just for you</h5>
+              <p>Get upto</p>
+          </div>
+      </div>
+  </div> -->
