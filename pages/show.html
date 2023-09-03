@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,6 @@
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/all.min.css">
-    <!-- <link rel="stylesheet" href="/css/show.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -33,71 +33,79 @@
         }
     </style>
 </head>
-<body> 
+
+<body>
     <div id="tatacliq"></div>
 
     <div class="detais">
         <div class="container">
-            <div class="row">
-                <div class="w-50">
-                    <div class="image_box">
-                        <img src="" alt=""  id="imagebox">
-                    </div>
-                    <div class="imgsbox">
-                        <div class="row">
-                            <div class="w-10">
-                                <div class="imagesss">
-                                    <img src="" alt="" id="i1" onclick="clickimg(this)">
-                                </div>
+            <div class="flex">
+                <div class="w-6/12 my-10 flex">
+                    <div class="imgsbox w-[17.4%]">
+                        <div class="m-2">
+                            <div class="imagesss shadow-2xl hover:shadow-gray-800">
+                                <img src="" alt="" id="i1" onclick="clickimg(this)">
                             </div>
-                            <div class="w-10">
-                                <div class="imagesss">
-                                    <img src="" alt="" id="i2" onclick="clickimg(this)">
-                                </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="imagesss shadow-2xl hover:shadow-gray-800">
+                                <img src="" alt="" id="i2" onclick="clickimg(this)">
                             </div>
-                            <div class="w-10">
-                                <div class="imagesss">
-                                    <img src="" alt="" id="i3" onclick="clickimg(this)">
-                                </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="imagesss shadow-2xl hover:shadow-gray-800">
+                                <img src="" alt="" id="i3" onclick="clickimg(this)">
                             </div>
-                            <div class="w-10">
-                                <div class="imagesss">
-                                    <img src=""  alt="" id="i4" onclick="clickimg(this)">
-                                </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="imagesss shadow-2xl hover:shadow-gray-800">
+                                <img src="" alt="" id="i4" onclick="clickimg(this)">
                             </div>
-                            <div class="w-10">
-                                <div class="imagesss">
-                                    <img src="" alt="" id="i5" onclick="clickimg(this)">
-                                </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="imagesss shadow-2xl hover:shadow-gray-800">
+                                <img src="" alt="" id="i5" onclick="clickimg(this)">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="w-50">
-                    <div class="content">
-                        <h1 id="titles"></h1>
-                        <div class="row rate">
-                            <p id="rate" class="black"></p>
-                            
-                            <p id="ver" class="black"></p>
-                        </div>
-                        <div class="pricesss">
-                            <div class="row">
-                                <p id="prices"></p>
-                                <del id="prisess" class="black"></del>
-                                <p id="descri" class="black"></p>
-                            </div>
-                        </div>
-                        <h4 id="cat" class="black"></h4>
-                        <p class="free">Free Shipping On Orders over ₹ 750</p>
-                        <div class="detais ">
-                            <h5 class="black">Product Details</h5>
-                            <p class="black">Country of Origin :India 
-                                <br/>
-                                Manufacturing Details :GLOBAL HYGIENE COMPANY - Near, Plot No. 8,9, Valeshwar Industrial Estate, Pipodara Village, NH, Street Number 8, Surat, Gujarat 394110 India</p>
+                    <div class="image_box w-[80%] shadow-2xl">
+                        <img src="" alt="" class="w-full m-2" id="imagebox">
+                    </div>
 
-                        </div>
-                        <button id="add" class="add">Add To Cart</button>
+                </div>
+                <div class="w-6/12 my-10 p-10 shadow-2xl">
+                    <div class="content">
+                        <h1 id="titles" class="text-5xl capitalize"></h1>
+                        <p id="rate" class="text-2xl py-3"></p>
+                        <p id="prices" class="text-4xl font-bold"></p>
+                        <p id="descri" class="text-gray-700 py-2 italic"></p>
+                        <h4 id="cat" class="text-3xl"></h4>
+                        <p class="py-2 text-xl">Country of Origin : <span class="text-sky-700 text-2xl">India</span> </p>
+                        <p class="text-xl">Surat, Gujarat 394110</p>
+                        <button id="add"
+                            class="bg-zinc-600 border-4	text-white px-10 py-3 my-5 rounded-xl hover:border-slate-400 transition text-3xl">Add
+                            To Bag &#128515;</button>
+                        <p class="text-lg">
+                            <span class="font-bold">15% off on ICICI Credit Cards</span>
+                            <br/>
+                            Use Code: ICICIWEEKEND | 
+                            Min Purchase: ₹1500 <a href="#" class="text-sky-500 underline underline-offset-2">more</a>
+                            <br/><br/>
+                            <span class="font-bold">Flat 5% off on all UPI transactions</span>
+                            <br/>
+                            Use Code: UPI | 
+                            Min Purchase: ₹1000 <a href="#" class="text-sky-500 underline underline-offset-2">more</a>
+                            <br/><br/>
+                            <span class="font-bold">Flat Rs 200 off. Valid on the app only</span>
+                            <br/>
+                            Use Code: FIRSTCLIQ | 
+                            Min Purchase: ₹1200 <a href="#" class="text-sky-500 underline underline-offset-2">more</a>
+                            <br/><br/>
+                            <span class="font-bold">Valid only on AU Small Finance Bank Limited Debit & Credit Cards | Get 15% instant discount on purchase above Rs.500.</span>
+                            <br/>
+                            Use Code: AUCLIQ300 | 
+                            Min Purchase: ₹500 <a href="#" class="text-sky-500 underline underline-offset-2">more</a>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -107,12 +115,13 @@
     <div id="footer"></div>
     <script>
 
-        function clickimg(smallimg){
+        function clickimg(smallimg) {
             console.log(smallimg);
-            var fullimg =document.getElementById("imagebox");
+            var fullimg = document.getElementById("imagebox");
             fullimg.src = smallimg.src
         }
     </script>
     <script type="module" src="/javascripts/show.js"></script>
 </body>
+
 </html>

@@ -37,7 +37,16 @@ div .btn1{
     background-color: gray;
     padding: 10px 30px;
     border-radius: 5px;
+    color: white;
     display: block;
     margin: auto;
+}
+div .btn{
+    background-color: gray;
+    padding: 10px 30px;
+    border-radius: 5px;
     color: white;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }

@@ -56,12 +56,12 @@ const display = (data) => {
     }
 
     const btn1 = document.createElement("button");
-    btn1.textContent = "Add to Cart";
+    btn1.textContent = "ADD TO CART";
     btn1.classList.add("btn1");
 
 
     let btn2 = document.createElement('Button');
-    btn2.innerHTML = "VIEW";
+    btn2.innerHTML = "VIEW DETAILS";
     btn2.setAttribute('class', 'btn');
 
     btn2.addEventListener("click", () => {
