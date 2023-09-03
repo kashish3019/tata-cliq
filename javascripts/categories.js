@@ -20,16 +20,16 @@ const display = (data) => {
 
     const title = document.createElement("h3");
     title.textContent = item.title;
-    title.style.fontSize="30px"
-    title.style.fontWeight="semibold"
+    title.style.fontSize = "30px"
+    title.style.fontWeight = "semibold"
 
     const description = document.createElement("h4");
     description.textContent = item.description;
-    description.style.fontSize="20px"
+    description.style.fontSize = "20px"
 
     const catagory = document.createElement("h5");
     catagory.textContent = item.catagory;
-    catagory.style.fontSize="30px"
+    catagory.style.fontSize = "30px"
 
     const price = document.createElement("h6");
     price.textContent = `${item.price}$`;
@@ -40,41 +40,43 @@ const display = (data) => {
     if (item.rating.rate > 4) {
       rating.innerHTML = "* * * * *"
       rating.style.color = "green"
-      rating.style.fontSize="30px"
+      rating.style.fontSize = "30px"
 
     }
     else if (item.rating.rate <= 4 && item.rating.rate >= 3) {
       rating.innerHTML = "* * * *"
       rating.style.color = "chocolate"
-      rating.style.fontSize="30px"
+      rating.style.fontSize = "30px"
     }
     else {
       rating.innerHTML = "* *"
       rating.style.color = "red"
-      rating.style.fontSize="30px"
+      rating.style.fontSize = "30px"
 
     }
 
     const btn1 = document.createElement("button");
     btn1.textContent = "Add to Cart";
     btn1.classList.add("btn1");
+
+
     let btn2 = document.createElement('Button');
     btn2.innerHTML = "VIEW";
-        btn2.setAttribute('class', 'btn');
+    btn2.setAttribute('class', 'btn');
 
-        btn2.addEventListener("click",()=>{
-            id= products.id;
-            console.log(id);
-             fetch(`http://localhost:3000/detail/${id}`)
-                 .then((res)=>res.json())
-                 .then((data)=>{
-                     console.log(data)
-                     localStorage.setItem("productDetails", JSON.stringify(data));
-                     window.location.href="/pages/show.html";
-                 })
-           
+    btn2.addEventListener("click", () => {
+      id = item.id;
+      console.log(id);
+      fetch(`http://localhost:3000/products/${id}`)
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data)
+          localStorage.setItem("productDetails", JSON.stringify(data));
+          window.location.href = "/pages/show.html";
         })
-    div.append(image, title, description, catagory, price, rating, btn1,btn2);
+
+    })
+    div.append(image, title, description, catagory, price, rating, btn1, btn2);
     box.appendChild(div);
 
     btn1.addEventListener("click", () => {
@@ -155,24 +157,24 @@ document.getElementById("woman").addEventListener("click", () => {
 document.getElementById("kids").addEventListener("click", () => {
   currentCategory = "kids";
   filterAndDisplayCategory(currentCategory);
-  enableSortingButtons(); 
+  enableSortingButtons();
 });
 
 document.getElementById("beauty").addEventListener("click", () => {
   currentCategory = "beauty";
   filterAndDisplayCategory(currentCategory);
-  enableSortingButtons(); 
+  enableSortingButtons();
 });
 
 document.getElementById("jewellery").addEventListener("click", () => {
   currentCategory = "jewellery";
   filterAndDisplayCategory(currentCategory);
-  enableSortingButtons(); 
+  enableSortingButtons();
 });
 
 const filterAndDisplaySearchResults = (searchTerm) => {
   const filteredData = products.filter((product) =>
-    product.title.toLowerCase().includes(searchTerm.toLowerCase()) 
+    product.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
   display(filteredData);
 };
