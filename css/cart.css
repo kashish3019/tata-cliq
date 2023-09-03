@@ -8,42 +8,49 @@
 
     display: flex;
     width: 100%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-
 }
-
 .imgdiv img{
     width: 200px;
-    height: 200px;
+    height: 250px;
     text-align: center;
+    border-radius: 10px;
 }
 #cartpage div{
-    padding: 20px;
+    padding: 10px;
 }
 
-#cartpage{
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    display: block;
-    /* position: relative; */
-    width: 60%;
-    /* margin-left: 350px; */
-    margin: 20px;
+#cartpage h3{
+    padding: 10px;
 }
+
+#cartpage {
+    overflow-y: auto; 
+    display: block;
+    width: 60%;
+    margin: 20px;
+  }
 
 .maindiv{
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     display: flex;
     position: relative;
+    /* border: 1px solid ; */
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
 }
 #other{
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    background-color: rgba(128, 128, 128, 0.763);
+    flex: 0 0 30%; 
+    position: sticky;
+    top: 0;
+    height: 100vh; 
+    background-color:#f9f9f9;
     width: 30%;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 .maindiv2{
     margin: 30px;
 }
-
 
 #cartpage h3{
     font-size: 20px;
@@ -52,7 +59,8 @@
 }
 
 #cartpage button{
-    padding: 5px 10px;
+    padding: 5px 20px;
+    border: 1px solid gray;
 }
 #cartpage span{
     padding: 5px 10px;
@@ -63,16 +71,15 @@
     margin: 30px;
     font-family: 'Courgette', cursive;
     font-family: 'Signika Negative', sans-serif;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 .apply{
     margin: 10px;
     padding: 5px 30px;
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(218, 28, 92);
     border: 0;
-    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
     font-family: 'Courgette', cursive;
     font-family: 'Signika Negative', sans-serif;
 
@@ -80,19 +87,15 @@
 
 .promocode{
     padding: 5px 30px;
-
+    color: black;
+    background-color: #ececec;
 }
 label {
     padding-right: 10px;
     font-family: 'Courgette', cursive;
     font-family: 'Signika Negative', sans-serif;
-    color: white;
+    color: black;
     font-size: 20px;
-}
-.price1{
-    font-size: 20px;
-    position: absolute;
-    right : -30px;
 }
 .code{
     display: block;
@@ -101,36 +104,65 @@ label {
 }
 
 .texts{
-    display: flex;
     align-items: center;
     position: relative;
-    width: 50%;
 }
 
 .plusminse{
     position: absolute;
     right: 50px;
     top: 40%;
+    background-color: #ececec;
+    border: 1px solid rgba(128, 128, 128, 0.396);
 }
 
 section{
     display: flex;
     justify-content: center;
     background-color: #ececec;
+    padding-top: 10px;
 }
 
 .disprice{
-    color: white;
+    color: black;
     font-family: 'Courgette', cursive;
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
     margin-top: 30px;
+    padding-bottom: 30px;
 }
+
+#other h3{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+} 
+
+#other h4{
+    border-top: 1px solid ;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 10px;
+} 
 .heading {
     background-color: #f9f9f9;
 }
 .txt{
     background-color: #ececec;
-    text-align: left;
-
+}
+.delete-button{
+    background-color: #ececec;
+    padding: 15px;
+    border-radius: 5px;
+}
+.place-order-button{
+    background-color:  rgb(218, 28, 92);
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
 }
