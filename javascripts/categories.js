@@ -11,7 +11,7 @@ const display = (data) => {
     const div = document.createElement("div");
     div.classList.add("main-box");
     div.style.padding = "30px"
-    div.style.border = "1px solid gray"
+    div.style.boxShadow = "0px 0px 15px rgba(0, 0, 0, 0.2)"
 
     const image = document.createElement("img");
     image.src = item.image;
